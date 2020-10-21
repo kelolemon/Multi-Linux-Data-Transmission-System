@@ -14,5 +14,6 @@ void handle(int sender_socket) {
     // if the package is sent by original sender. just let sender continue sending.
 
     // later, when we receive the package, we need to forward this package to other node, if necessary.
-    //
+    // may use the sender model.
+
 }
