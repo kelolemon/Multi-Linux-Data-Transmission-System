@@ -6,16 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/Test/Test.cpp
-Test.h
-/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/Test/Test.h
-
-/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/Test/Test.h
-iostream
--
-cstdio
--
-
 /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/main.cpp
 main.h
 /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/main.h

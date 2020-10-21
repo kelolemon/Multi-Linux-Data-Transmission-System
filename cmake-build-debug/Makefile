@@ -196,59 +196,113 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-srv/handle.o: srv/handle.cpp.o
+receiver/handle.o: receiver/handle.cpp.o
 
-.PHONY : srv/handle.o
-
-# target to build an object file
-srv/handle.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/srv/handle.cpp.o
-.PHONY : srv/handle.cpp.o
-
-srv/handle.i: srv/handle.cpp.i
-
-.PHONY : srv/handle.i
-
-# target to preprocess a source file
-srv/handle.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/srv/handle.cpp.i
-.PHONY : srv/handle.cpp.i
-
-srv/handle.s: srv/handle.cpp.s
-
-.PHONY : srv/handle.s
-
-# target to generate assembly for a file
-srv/handle.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/srv/handle.cpp.s
-.PHONY : srv/handle.cpp.s
-
-srv/srv_init.o: srv/srv_init.cpp.o
-
-.PHONY : srv/srv_init.o
+.PHONY : receiver/handle.o
 
 # target to build an object file
-srv/srv_init.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/srv/srv_init.cpp.o
-.PHONY : srv/srv_init.cpp.o
+receiver/handle.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/receiver/handle.cpp.o
+.PHONY : receiver/handle.cpp.o
 
-srv/srv_init.i: srv/srv_init.cpp.i
+receiver/handle.i: receiver/handle.cpp.i
 
-.PHONY : srv/srv_init.i
+.PHONY : receiver/handle.i
 
 # target to preprocess a source file
-srv/srv_init.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/srv/srv_init.cpp.i
-.PHONY : srv/srv_init.cpp.i
+receiver/handle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/receiver/handle.cpp.i
+.PHONY : receiver/handle.cpp.i
 
-srv/srv_init.s: srv/srv_init.cpp.s
+receiver/handle.s: receiver/handle.cpp.s
 
-.PHONY : srv/srv_init.s
+.PHONY : receiver/handle.s
 
 # target to generate assembly for a file
-srv/srv_init.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/srv/srv_init.cpp.s
-.PHONY : srv/srv_init.cpp.s
+receiver/handle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/receiver/handle.cpp.s
+.PHONY : receiver/handle.cpp.s
+
+receiver/receive_init.o: receiver/receive_init.cpp.o
+
+.PHONY : receiver/receive_init.o
+
+# target to build an object file
+receiver/receive_init.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/receiver/receive_init.cpp.o
+.PHONY : receiver/receive_init.cpp.o
+
+receiver/receive_init.i: receiver/receive_init.cpp.i
+
+.PHONY : receiver/receive_init.i
+
+# target to preprocess a source file
+receiver/receive_init.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/receiver/receive_init.cpp.i
+.PHONY : receiver/receive_init.cpp.i
+
+receiver/receive_init.s: receiver/receive_init.cpp.s
+
+.PHONY : receiver/receive_init.s
+
+# target to generate assembly for a file
+receiver/receive_init.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/receiver/receive_init.cpp.s
+.PHONY : receiver/receive_init.cpp.s
+
+sender/sender.o: sender/sender.cpp.o
+
+.PHONY : sender/sender.o
+
+# target to build an object file
+sender/sender.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/sender/sender.cpp.o
+.PHONY : sender/sender.cpp.o
+
+sender/sender.i: sender/sender.cpp.i
+
+.PHONY : sender/sender.i
+
+# target to preprocess a source file
+sender/sender.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/sender/sender.cpp.i
+.PHONY : sender/sender.cpp.i
+
+sender/sender.s: sender/sender.cpp.s
+
+.PHONY : sender/sender.s
+
+# target to generate assembly for a file
+sender/sender.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/sender/sender.cpp.s
+.PHONY : sender/sender.cpp.s
+
+sender/sender_init.o: sender/sender_init.cpp.o
+
+.PHONY : sender/sender_init.o
+
+# target to build an object file
+sender/sender_init.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/sender/sender_init.cpp.o
+.PHONY : sender/sender_init.cpp.o
+
+sender/sender_init.i: sender/sender_init.cpp.i
+
+.PHONY : sender/sender_init.i
+
+# target to preprocess a source file
+sender/sender_init.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/sender/sender_init.cpp.i
+.PHONY : sender/sender_init.cpp.i
+
+sender/sender_init.s: sender/sender_init.cpp.s
+
+.PHONY : sender/sender_init.s
+
+# target to generate assembly for a file
+sender/sender_init.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/sender/sender_init.cpp.s
+.PHONY : sender/sender_init.cpp.s
 
 # Help Target
 help:
@@ -265,12 +319,18 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... srv/handle.o"
-	@echo "... srv/handle.i"
-	@echo "... srv/handle.s"
-	@echo "... srv/srv_init.o"
-	@echo "... srv/srv_init.i"
-	@echo "... srv/srv_init.s"
+	@echo "... receiver/handle.o"
+	@echo "... receiver/handle.i"
+	@echo "... receiver/handle.s"
+	@echo "... receiver/receive_init.o"
+	@echo "... receiver/receive_init.i"
+	@echo "... receiver/receive_init.s"
+	@echo "... sender/sender.o"
+	@echo "... sender/sender.i"
+	@echo "... sender/sender.s"
+	@echo "... sender/sender_init.o"
+	@echo "... sender/sender_init.i"
+	@echo "... sender/sender_init.s"
 .PHONY : help
 
 

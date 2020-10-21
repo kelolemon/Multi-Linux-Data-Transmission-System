@@ -92,16 +92,28 @@
 		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/main.h">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/srv/handle.cpp">
+		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/receiver/handle.cpp">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/srv/handle.h">
+		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/receiver/handle.h">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/srv/srv_init.cpp">
+		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/receiver/receive_init.cpp">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/srv/srv_init.h">
+		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/receiver/receive_init.h">
+			<Option target="Multi_Linux_Data_Transmission_System"/>
+		</Unit>
+		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/sender/sender.cpp">
+			<Option target="Multi_Linux_Data_Transmission_System"/>
+		</Unit>
+		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/sender/sender.h">
+			<Option target="Multi_Linux_Data_Transmission_System"/>
+		</Unit>
+		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/sender/sender_init.cpp">
+			<Option target="Multi_Linux_Data_Transmission_System"/>
+		</Unit>
+		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/sender/sender_init.h">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
 		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/CMakeLists.txt">

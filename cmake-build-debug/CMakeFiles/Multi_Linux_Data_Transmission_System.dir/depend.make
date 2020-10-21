@@ -7,9 +7,15 @@ CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Test/Test.cpp.o: ../Test/Tes
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/main.cpp.o: ../main.cpp
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/main.cpp.o: ../main.h
 
-CMakeFiles/Multi_Linux_Data_Transmission_System.dir/srv/handle.cpp.o: ../srv/handle.cpp
-CMakeFiles/Multi_Linux_Data_Transmission_System.dir/srv/handle.cpp.o: ../srv/handle.h
+CMakeFiles/Multi_Linux_Data_Transmission_System.dir/receiver/handle.cpp.o: ../receiver/handle.cpp
+CMakeFiles/Multi_Linux_Data_Transmission_System.dir/receiver/handle.cpp.o: ../receiver/handle.h
 
-CMakeFiles/Multi_Linux_Data_Transmission_System.dir/srv/srv_init.cpp.o: ../srv/srv_init.cpp
-CMakeFiles/Multi_Linux_Data_Transmission_System.dir/srv/srv_init.cpp.o: ../srv/srv_init.h
+CMakeFiles/Multi_Linux_Data_Transmission_System.dir/receiver/receive_init.cpp.o: ../receiver/receive_init.cpp
+CMakeFiles/Multi_Linux_Data_Transmission_System.dir/receiver/receive_init.cpp.o: ../receiver/receive_init.h
+
+CMakeFiles/Multi_Linux_Data_Transmission_System.dir/sender/sender.cpp.o: ../sender/sender.cpp
+CMakeFiles/Multi_Linux_Data_Transmission_System.dir/sender/sender.cpp.o: ../sender/sender.h
+
+CMakeFiles/Multi_Linux_Data_Transmission_System.dir/sender/sender_init.cpp.o: ../sender/sender_init.cpp
+CMakeFiles/Multi_Linux_Data_Transmission_System.dir/sender/sender_init.cpp.o: ../sender/sender_init.h
 

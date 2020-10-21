@@ -6,8 +6,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/Test/Test.cpp" "/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Test/Test.cpp.o"
   "/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/main.cpp" "/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/CMakeFiles/Multi_Linux_Data_Transmission_System.dir/main.cpp.o"
-  "/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/srv/handle.cpp" "/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/CMakeFiles/Multi_Linux_Data_Transmission_System.dir/srv/handle.cpp.o"
-  "/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/srv/srv_init.cpp" "/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/CMakeFiles/Multi_Linux_Data_Transmission_System.dir/srv/srv_init.cpp.o"
+  "/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/receiver/handle.cpp" "/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/CMakeFiles/Multi_Linux_Data_Transmission_System.dir/receiver/handle.cpp.o"
+  "/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/receiver/receive_init.cpp" "/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/CMakeFiles/Multi_Linux_Data_Transmission_System.dir/receiver/receive_init.cpp.o"
+  "/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/sender/sender.cpp" "/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/CMakeFiles/Multi_Linux_Data_Transmission_System.dir/sender/sender.cpp.o"
+  "/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/sender/sender_init.cpp" "/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/CMakeFiles/Multi_Linux_Data_Transmission_System.dir/sender/sender_init.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
