@@ -142,32 +142,32 @@ Multi_Linux_Data_Transmission_System/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build
 .PHONY : Multi_Linux_Data_Transmission_System/fast
 
-Test.o: Test.cpp.o
+Test/Test.o: Test/Test.cpp.o
 
-.PHONY : Test.o
+.PHONY : Test/Test.o
 
 # target to build an object file
-Test.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Test.cpp.o
-.PHONY : Test.cpp.o
+Test/Test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Test/Test.cpp.o
+.PHONY : Test/Test.cpp.o
 
-Test.i: Test.cpp.i
+Test/Test.i: Test/Test.cpp.i
 
-.PHONY : Test.i
+.PHONY : Test/Test.i
 
 # target to preprocess a source file
-Test.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Test.cpp.i
-.PHONY : Test.cpp.i
+Test/Test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Test/Test.cpp.i
+.PHONY : Test/Test.cpp.i
 
-Test.s: Test.cpp.s
+Test/Test.s: Test/Test.cpp.s
 
-.PHONY : Test.s
+.PHONY : Test/Test.s
 
 # target to generate assembly for a file
-Test.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Test.cpp.s
-.PHONY : Test.cpp.s
+Test/Test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Test/Test.cpp.s
+.PHONY : Test/Test.cpp.s
 
 main.o: main.cpp.o
 
@@ -259,9 +259,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Multi_Linux_Data_Transmission_System"
-	@echo "... Test.o"
-	@echo "... Test.i"
-	@echo "... Test.s"
+	@echo "... Test/Test.o"
+	@echo "... Test/Test.i"
+	@echo "... Test/Test.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

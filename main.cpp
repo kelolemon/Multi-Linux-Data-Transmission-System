@@ -1,7 +1,7 @@
 # include "main.h"
 
 int main(int argc, char *argv[]) {
-    test_tcp(argc,argv);
+    std::cout << "test" << std::endl;
     return 0;
 }
 

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Test.cpp.o"
+  "CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Test/Test.cpp.o"
   "CMakeFiles/Multi_Linux_Data_Transmission_System.dir/main.cpp.o"
   "CMakeFiles/Multi_Linux_Data_Transmission_System.dir/srv/handle.cpp.o"
   "CMakeFiles/Multi_Linux_Data_Transmission_System.dir/srv/srv_init.cpp.o"

@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/Test.cpp
+/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/Test/Test.cpp
 Test.h
-/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/Test.h
+/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/Test/Test.h
 
-/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/Test.h
+/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/Test/Test.h
 iostream
 -
 cstdio
@@ -22,39 +22,5 @@ main.h
 
 /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/main.h
 iostream
--
-
-/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/srv/handle.cpp
-handle.h
-/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/srv/handle.h
-
-/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/srv/handle.h
-
-/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/srv/srv_init.cpp
-srv_init.h
-/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/srv/srv_init.h
-
-/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/srv/srv_init.h
-sys/socket.h
--
-cstdio
--
-cstdlib
--
-cstring
--
-unistd.h
--
-sys/socket.h
--
-netinet/in.h
--
-arpa/inet.h
--
-csignal
--
-cerrno
--
-pthread.h
 -
 

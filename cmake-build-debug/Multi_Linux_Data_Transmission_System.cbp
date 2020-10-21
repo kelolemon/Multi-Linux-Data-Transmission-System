@@ -80,10 +80,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/Test.cpp">
+		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/Test/Test.cpp">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/Test.h">
+		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/Test/Test.h">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
 		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/main.cpp">
