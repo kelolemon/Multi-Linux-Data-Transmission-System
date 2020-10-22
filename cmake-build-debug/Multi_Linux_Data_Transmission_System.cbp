@@ -86,6 +86,9 @@
 		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/Test/Test.h">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
+		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/global.h">
+			<Option target="Multi_Linux_Data_Transmission_System"/>
+		</Unit>
 		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/main.cpp">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
