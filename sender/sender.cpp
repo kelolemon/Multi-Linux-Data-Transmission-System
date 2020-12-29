@@ -32,7 +32,7 @@ void sender(int sender_socket) {
     for (int i = 0; i < block_number; i++) {
         char buf[BIT_SIZE + 1];
         file.read(reinterpret_cast<char *>(&buf), BIT_SIZE);
-        
+
         // construct the package header.
         // haven't done yet.
         // send buf to receive
