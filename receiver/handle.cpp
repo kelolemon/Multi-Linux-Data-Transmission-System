@@ -2,7 +2,13 @@
 // Created by Kelo Deng on 2020/10/21.
 //
 # include "handle.h"
+<<<<<<< HEAD
 # include "receive.c"
+=======
+
+message message_queue[N];
+
+>>>>>>> e7ce952ae2f190ef7717672a5a70731b5d8a452d
 void handle(int sender_socket) {
     // core function
     // this function is to receive the page from sender and return ack to sender.
