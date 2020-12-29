@@ -1,0 +1,8 @@
+//
+// Created by Kelo Deng on 2020/12/30.
+//
+
+#ifndef MULTI_LINUX_DATA_TRANSMISSION_SYSTEM_INIT_H
+#define MULTI_LINUX_DATA_TRANSMISSION_SYSTEM_INIT_H
+extern void load_connections();
+#endif //MULTI_LINUX_DATA_TRANSMISSION_SYSTEM_INIT_H

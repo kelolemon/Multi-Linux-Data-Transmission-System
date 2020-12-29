@@ -86,7 +86,37 @@
 		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/Test/Test.h">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/global.h">
+		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/include/global.h">
+			<Option target="Multi_Linux_Data_Transmission_System"/>
+		</Unit>
+		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/init/config.cpp">
+			<Option target="Multi_Linux_Data_Transmission_System"/>
+		</Unit>
+		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/init/init.cpp">
+			<Option target="Multi_Linux_Data_Transmission_System"/>
+		</Unit>
+		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/init/init.h">
+			<Option target="Multi_Linux_Data_Transmission_System"/>
+		</Unit>
+		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/init/load_connection.cpp">
+			<Option target="Multi_Linux_Data_Transmission_System"/>
+		</Unit>
+		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/init/load_connection.h">
+			<Option target="Multi_Linux_Data_Transmission_System"/>
+		</Unit>
+		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/json_cpp/lib_json/json_reader.cpp">
+			<Option target="Multi_Linux_Data_Transmission_System"/>
+		</Unit>
+		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/json_cpp/lib_json/json_tool.h">
+			<Option target="Multi_Linux_Data_Transmission_System"/>
+		</Unit>
+		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/json_cpp/lib_json/json_value.cpp">
+			<Option target="Multi_Linux_Data_Transmission_System"/>
+		</Unit>
+		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/json_cpp/lib_json/json_valueiterator.inl">
+			<Option target="Multi_Linux_Data_Transmission_System"/>
+		</Unit>
+		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/json_cpp/lib_json/json_writer.cpp">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
 		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/main.cpp">

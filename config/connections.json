@@ -1,0 +1,3 @@
+{
+  "connections": ["127.0.0.1:8080", "127.0.0.1:15551", "channel_1.cetacis.dev"]
+}

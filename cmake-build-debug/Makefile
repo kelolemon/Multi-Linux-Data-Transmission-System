@@ -170,6 +170,168 @@ Test/Test.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Test/Test.cpp.s
 .PHONY : Test/Test.cpp.s
 
+init/config.o: init/config.cpp.o
+
+.PHONY : init/config.o
+
+# target to build an object file
+init/config.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/init/config.cpp.o
+.PHONY : init/config.cpp.o
+
+init/config.i: init/config.cpp.i
+
+.PHONY : init/config.i
+
+# target to preprocess a source file
+init/config.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/init/config.cpp.i
+.PHONY : init/config.cpp.i
+
+init/config.s: init/config.cpp.s
+
+.PHONY : init/config.s
+
+# target to generate assembly for a file
+init/config.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/init/config.cpp.s
+.PHONY : init/config.cpp.s
+
+init/init.o: init/init.cpp.o
+
+.PHONY : init/init.o
+
+# target to build an object file
+init/init.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/init/init.cpp.o
+.PHONY : init/init.cpp.o
+
+init/init.i: init/init.cpp.i
+
+.PHONY : init/init.i
+
+# target to preprocess a source file
+init/init.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/init/init.cpp.i
+.PHONY : init/init.cpp.i
+
+init/init.s: init/init.cpp.s
+
+.PHONY : init/init.s
+
+# target to generate assembly for a file
+init/init.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/init/init.cpp.s
+.PHONY : init/init.cpp.s
+
+init/load_connection.o: init/load_connection.cpp.o
+
+.PHONY : init/load_connection.o
+
+# target to build an object file
+init/load_connection.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/init/load_connection.cpp.o
+.PHONY : init/load_connection.cpp.o
+
+init/load_connection.i: init/load_connection.cpp.i
+
+.PHONY : init/load_connection.i
+
+# target to preprocess a source file
+init/load_connection.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/init/load_connection.cpp.i
+.PHONY : init/load_connection.cpp.i
+
+init/load_connection.s: init/load_connection.cpp.s
+
+.PHONY : init/load_connection.s
+
+# target to generate assembly for a file
+init/load_connection.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/init/load_connection.cpp.s
+.PHONY : init/load_connection.cpp.s
+
+json_cpp/lib_json/json_reader.o: json_cpp/lib_json/json_reader.cpp.o
+
+.PHONY : json_cpp/lib_json/json_reader.o
+
+# target to build an object file
+json_cpp/lib_json/json_reader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/json_cpp/lib_json/json_reader.cpp.o
+.PHONY : json_cpp/lib_json/json_reader.cpp.o
+
+json_cpp/lib_json/json_reader.i: json_cpp/lib_json/json_reader.cpp.i
+
+.PHONY : json_cpp/lib_json/json_reader.i
+
+# target to preprocess a source file
+json_cpp/lib_json/json_reader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/json_cpp/lib_json/json_reader.cpp.i
+.PHONY : json_cpp/lib_json/json_reader.cpp.i
+
+json_cpp/lib_json/json_reader.s: json_cpp/lib_json/json_reader.cpp.s
+
+.PHONY : json_cpp/lib_json/json_reader.s
+
+# target to generate assembly for a file
+json_cpp/lib_json/json_reader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/json_cpp/lib_json/json_reader.cpp.s
+.PHONY : json_cpp/lib_json/json_reader.cpp.s
+
+json_cpp/lib_json/json_value.o: json_cpp/lib_json/json_value.cpp.o
+
+.PHONY : json_cpp/lib_json/json_value.o
+
+# target to build an object file
+json_cpp/lib_json/json_value.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/json_cpp/lib_json/json_value.cpp.o
+.PHONY : json_cpp/lib_json/json_value.cpp.o
+
+json_cpp/lib_json/json_value.i: json_cpp/lib_json/json_value.cpp.i
+
+.PHONY : json_cpp/lib_json/json_value.i
+
+# target to preprocess a source file
+json_cpp/lib_json/json_value.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/json_cpp/lib_json/json_value.cpp.i
+.PHONY : json_cpp/lib_json/json_value.cpp.i
+
+json_cpp/lib_json/json_value.s: json_cpp/lib_json/json_value.cpp.s
+
+.PHONY : json_cpp/lib_json/json_value.s
+
+# target to generate assembly for a file
+json_cpp/lib_json/json_value.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/json_cpp/lib_json/json_value.cpp.s
+.PHONY : json_cpp/lib_json/json_value.cpp.s
+
+json_cpp/lib_json/json_writer.o: json_cpp/lib_json/json_writer.cpp.o
+
+.PHONY : json_cpp/lib_json/json_writer.o
+
+# target to build an object file
+json_cpp/lib_json/json_writer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/json_cpp/lib_json/json_writer.cpp.o
+.PHONY : json_cpp/lib_json/json_writer.cpp.o
+
+json_cpp/lib_json/json_writer.i: json_cpp/lib_json/json_writer.cpp.i
+
+.PHONY : json_cpp/lib_json/json_writer.i
+
+# target to preprocess a source file
+json_cpp/lib_json/json_writer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/json_cpp/lib_json/json_writer.cpp.i
+.PHONY : json_cpp/lib_json/json_writer.cpp.i
+
+json_cpp/lib_json/json_writer.s: json_cpp/lib_json/json_writer.cpp.s
+
+.PHONY : json_cpp/lib_json/json_writer.s
+
+# target to generate assembly for a file
+json_cpp/lib_json/json_writer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/json_cpp/lib_json/json_writer.cpp.s
+.PHONY : json_cpp/lib_json/json_writer.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -317,6 +479,24 @@ help:
 	@echo "... Test/Test.o"
 	@echo "... Test/Test.i"
 	@echo "... Test/Test.s"
+	@echo "... init/config.o"
+	@echo "... init/config.i"
+	@echo "... init/config.s"
+	@echo "... init/init.o"
+	@echo "... init/init.i"
+	@echo "... init/init.s"
+	@echo "... init/load_connection.o"
+	@echo "... init/load_connection.i"
+	@echo "... init/load_connection.s"
+	@echo "... json_cpp/lib_json/json_reader.o"
+	@echo "... json_cpp/lib_json/json_reader.i"
+	@echo "... json_cpp/lib_json/json_reader.s"
+	@echo "... json_cpp/lib_json/json_value.o"
+	@echo "... json_cpp/lib_json/json_value.i"
+	@echo "... json_cpp/lib_json/json_value.s"
+	@echo "... json_cpp/lib_json/json_writer.o"
+	@echo "... json_cpp/lib_json/json_writer.i"
+	@echo "... json_cpp/lib_json/json_writer.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -3,7 +3,6 @@
 //
 
 # include "sender.h"
-# include "../global.h"
 
 void sender(int sender_socket) {
     // core function

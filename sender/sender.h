@@ -22,10 +22,10 @@
 # include <csignal>
 # include <cerrno>
 # include <pthread.h>
+# include "../include/global.h"
 extern char filename[255];
 
-typedef struct
-{
+typedef struct {
     struct sockaddr_in rev_address;
     struct sockaddr_in send_address;
     int total_bytes;

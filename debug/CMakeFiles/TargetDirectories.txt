@@ -1,0 +1,3 @@
+/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/debug/CMakeFiles/rebuild_cache.dir
+/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/debug/CMakeFiles/edit_cache.dir
+/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/debug/CMakeFiles/Multi_Linux_Data_Transmission_System.dir

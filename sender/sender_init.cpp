@@ -26,7 +26,7 @@ void sender_init(char *addr, char *port) {
         res = connect(sender_socket, reinterpret_cast<const sockaddr *>(&receive_addr), sizeof(receive_addr));
         if (res == -1 && errno == EINTR) continue;
         if (res == -1) {
-            return;
+            break;
         }
         printf("[sender] server[%s:%s] is connected!\n", addr, port);
         sender(sender_socket);
