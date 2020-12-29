@@ -16,7 +16,6 @@
 # include <cerrno>
 # include <pthread.h>
 extern void sender(int sender_socket);
-#endif //MULTI_LINUX_DATA_TRANSMISSION_SYSTEM_SENDER_INIT_H
 typedef struct
 {
     struct sockaddr_in rev_address;
@@ -25,4 +24,13 @@ typedef struct
     int bag_number;
     int checknum;
     int TTL;
-}Header;
+}header;
+
+typedef struct 
+{
+    header* header;
+    char* message;
+}message;
+#endif //MULTI_LINUX_DATA_TRANSMISSION_SYSTEM_SENDER_INIT_H
+
+
