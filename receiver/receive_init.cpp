@@ -39,7 +39,7 @@ void receive_init(char *addr, char *port) {
     }
     // accept connection and handle
     for (;;) {
-        int sender_socket = accept(receive_socket, reinterpret_cast<sockaddr *>(&sender_addr), &addr_size);
+        int sender_socket = accept(receive_socket, reinterpret_cast<sockaddr *>(&sender_addr), &addr_size);    //得到发送端套接字和发送端地址结构
         if (sender_socket == -1 & errno == EINTR) break;
         if (sender_socket < 0) {
             puts("accept error");
