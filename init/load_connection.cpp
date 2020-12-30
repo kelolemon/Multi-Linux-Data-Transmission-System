@@ -13,8 +13,5 @@ void load_connections() {
     for (int i = 0; i < connections_len; i++){
         connections[i] = root["connections"][i].asString();
     }
-    cout << connections_len << endl;
-    for (const auto& x : connections) {
-        cout << x << endl;
-    }
 }
+

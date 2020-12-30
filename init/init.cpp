@@ -5,5 +5,5 @@
 #include "init.h"
 
 void init() {
-
+    load_connections();
 }

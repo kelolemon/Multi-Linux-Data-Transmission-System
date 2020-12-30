@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/Test/Test.cpp
+Test.h
+/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/Test/Test.h
+
+/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/Test/Test.h
+iostream
+-
+cstdio
+-
+map
+-
+../include/global.h
+/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/include/global.h
+
+/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/include/global.h
+cstring
+-
+string
+-
+cstdio
+-
+iostream
+-
+fstream
+-
+

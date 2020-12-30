@@ -3,6 +3,15 @@
 
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Test/Test.cpp.o: ../Test/Test.cpp
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Test/Test.cpp.o: ../Test/Test.h
+CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Test/Test.cpp.o: ../include/global.h
+
+CMakeFiles/Multi_Linux_Data_Transmission_System.dir/data_processing/buffer_file.cpp.o: ../data_processing/buffer_file.cpp
+CMakeFiles/Multi_Linux_Data_Transmission_System.dir/data_processing/buffer_file.cpp.o: ../data_processing/buffer_file.h
+CMakeFiles/Multi_Linux_Data_Transmission_System.dir/data_processing/buffer_file.cpp.o: ../include/global.h
+
+CMakeFiles/Multi_Linux_Data_Transmission_System.dir/data_processing/load_file.cpp.o: ../data_processing/load_file.cpp
+CMakeFiles/Multi_Linux_Data_Transmission_System.dir/data_processing/load_file.cpp.o: ../data_processing/load_file.h
+CMakeFiles/Multi_Linux_Data_Transmission_System.dir/data_processing/load_file.cpp.o: ../include/global.h
 
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/init/config.cpp.o: ../include/global.h
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/init/config.cpp.o: ../init/config.cpp
@@ -56,9 +65,11 @@ CMakeFiles/Multi_Linux_Data_Transmission_System.dir/json_cpp/lib_json/json_write
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/main.cpp.o: ../main.cpp
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/main.cpp.o: ../main.h
 
-CMakeFiles/Multi_Linux_Data_Transmission_System.dir/receiver/handle.cpp.o: ../include/global.h
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/receiver/handle.cpp.o: ../receiver/handle.cpp
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/receiver/handle.cpp.o: ../receiver/handle.h
+
+CMakeFiles/Multi_Linux_Data_Transmission_System.dir/receiver/receive.cpp.o: ../receiver/handle.h
+CMakeFiles/Multi_Linux_Data_Transmission_System.dir/receiver/receive.cpp.o: ../receiver/receive.cpp
 
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/receiver/receive_init.cpp.o: ../receiver/receive_init.cpp
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/receiver/receive_init.cpp.o: ../receiver/receive_init.h

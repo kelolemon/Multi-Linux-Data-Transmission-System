@@ -9,14 +9,19 @@
 # define BIT_SIZE 256
 # include <cstring>
 # include <string>
+# include <cstdio>
+# include <iostream>
+# include <fstream>
 
 struct PackageHeader {
     bool IsBroadCast;
+    int TotalPackageNumber;
     int PackageId;
     int PackageSize;
     int checkSum;
     int SourceId;
     int DestinationId;
+    int LastLeapId;
 };
 
 typedef struct {

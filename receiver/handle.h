@@ -22,8 +22,8 @@
 # include <csignal>
 # include <cerrno>
 # include <pthread.h>
-typedef struct header
-{
+
+struct header {
     struct sockaddr_in receive_addr;
     struct sockaddr_in sender_addr;
     int total_bytes;
@@ -32,10 +32,10 @@ typedef struct header
     int checksum;
     int TTL;
 };
-typedef struct sender_argv
-{
+
+struct sender_argv {
     struct header sender_head;
     int sender_socket;
-}
-pthread_t thread[1000];
+};
+
 #endif //MULTI_LINUX_DATA_TRANSMISSION_SYSTEM_HANDLE_H

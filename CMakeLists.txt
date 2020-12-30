@@ -10,6 +10,7 @@ add_executable(
         receiver/handle.cpp
         receiver/receive_init.h
         receiver/handle.h
+        receiver/receive.cpp
         main.h
         Test/Test.cpp
         Test/Test.h
@@ -27,4 +28,4 @@ add_executable(
         json_cpp/lib_json/json_value.cpp
         json_cpp/lib_json/json_valueiterator.inl
         json_cpp/lib_json/json_writer.cpp
-        init/config.cpp)
+        init/config.cpp "data_processing/load_file.cpp" "data_processing/load_file.h" data_processing/buffer_file.cpp data_processing/buffer_file.h)

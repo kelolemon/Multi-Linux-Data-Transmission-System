@@ -170,6 +170,60 @@ Test/Test.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Test/Test.cpp.s
 .PHONY : Test/Test.cpp.s
 
+data_processing/buffer_file.o: data_processing/buffer_file.cpp.o
+
+.PHONY : data_processing/buffer_file.o
+
+# target to build an object file
+data_processing/buffer_file.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/data_processing/buffer_file.cpp.o
+.PHONY : data_processing/buffer_file.cpp.o
+
+data_processing/buffer_file.i: data_processing/buffer_file.cpp.i
+
+.PHONY : data_processing/buffer_file.i
+
+# target to preprocess a source file
+data_processing/buffer_file.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/data_processing/buffer_file.cpp.i
+.PHONY : data_processing/buffer_file.cpp.i
+
+data_processing/buffer_file.s: data_processing/buffer_file.cpp.s
+
+.PHONY : data_processing/buffer_file.s
+
+# target to generate assembly for a file
+data_processing/buffer_file.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/data_processing/buffer_file.cpp.s
+.PHONY : data_processing/buffer_file.cpp.s
+
+data_processing/load_file.o: data_processing/load_file.cpp.o
+
+.PHONY : data_processing/load_file.o
+
+# target to build an object file
+data_processing/load_file.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/data_processing/load_file.cpp.o
+.PHONY : data_processing/load_file.cpp.o
+
+data_processing/load_file.i: data_processing/load_file.cpp.i
+
+.PHONY : data_processing/load_file.i
+
+# target to preprocess a source file
+data_processing/load_file.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/data_processing/load_file.cpp.i
+.PHONY : data_processing/load_file.cpp.i
+
+data_processing/load_file.s: data_processing/load_file.cpp.s
+
+.PHONY : data_processing/load_file.s
+
+# target to generate assembly for a file
+data_processing/load_file.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/data_processing/load_file.cpp.s
+.PHONY : data_processing/load_file.cpp.s
+
 init/config.o: init/config.cpp.o
 
 .PHONY : init/config.o
@@ -386,6 +440,33 @@ receiver/handle.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/receiver/handle.cpp.s
 .PHONY : receiver/handle.cpp.s
 
+receiver/receive.o: receiver/receive.cpp.o
+
+.PHONY : receiver/receive.o
+
+# target to build an object file
+receiver/receive.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/receiver/receive.cpp.o
+.PHONY : receiver/receive.cpp.o
+
+receiver/receive.i: receiver/receive.cpp.i
+
+.PHONY : receiver/receive.i
+
+# target to preprocess a source file
+receiver/receive.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/receiver/receive.cpp.i
+.PHONY : receiver/receive.cpp.i
+
+receiver/receive.s: receiver/receive.cpp.s
+
+.PHONY : receiver/receive.s
+
+# target to generate assembly for a file
+receiver/receive.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/receiver/receive.cpp.s
+.PHONY : receiver/receive.cpp.s
+
 receiver/receive_init.o: receiver/receive_init.cpp.o
 
 .PHONY : receiver/receive_init.o
@@ -479,6 +560,12 @@ help:
 	@echo "... Test/Test.o"
 	@echo "... Test/Test.i"
 	@echo "... Test/Test.s"
+	@echo "... data_processing/buffer_file.o"
+	@echo "... data_processing/buffer_file.i"
+	@echo "... data_processing/buffer_file.s"
+	@echo "... data_processing/load_file.o"
+	@echo "... data_processing/load_file.i"
+	@echo "... data_processing/load_file.s"
 	@echo "... init/config.o"
 	@echo "... init/config.i"
 	@echo "... init/config.s"
@@ -503,6 +590,9 @@ help:
 	@echo "... receiver/handle.o"
 	@echo "... receiver/handle.i"
 	@echo "... receiver/handle.s"
+	@echo "... receiver/receive.o"
+	@echo "... receiver/receive.i"
+	@echo "... receiver/receive.s"
 	@echo "... receiver/receive_init.o"
 	@echo "... receiver/receive_init.i"
 	@echo "... receiver/receive_init.s"
