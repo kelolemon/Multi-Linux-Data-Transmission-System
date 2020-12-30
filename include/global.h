@@ -24,9 +24,9 @@ struct PackageHeader {
     int LastLeapId;
 };
 
-typedef struct {
+struct Message {
     PackageHeader header;
-    char message[BIT_SIZE];
-}message;
+    char message[BIT_SIZE + 1];
+};
 
 #endif //MULTI_LINUX_DATA_TRANSMISSION_SYSTEM_GLOBAL_H
