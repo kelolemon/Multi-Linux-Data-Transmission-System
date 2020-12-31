@@ -28,4 +28,4 @@ add_executable(
         json_cpp/lib_json/json_value.cpp
         json_cpp/lib_json/json_valueiterator.inl
         json_cpp/lib_json/json_writer.cpp
-        init/config.cpp "data_processing/load_file.cpp" "data_processing/load_file.h" data_processing/buffer_file.cpp data_processing/buffer_file.h)
+        init/config.cpp "data_processing/load_file.cpp" "data_processing/load_file.h" data_processing/buffer_file.cpp data_processing/buffer_file.h init/load_hosts.cpp init/load_hosts.h)

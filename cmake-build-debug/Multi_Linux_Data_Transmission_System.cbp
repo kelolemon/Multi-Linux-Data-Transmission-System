@@ -116,6 +116,12 @@
 		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/init/load_connection.h">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
+		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/init/load_hosts.cpp">
+			<Option target="Multi_Linux_Data_Transmission_System"/>
+		</Unit>
+		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/init/load_hosts.h">
+			<Option target="Multi_Linux_Data_Transmission_System"/>
+		</Unit>
 		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/json_cpp/lib_json/json_reader.cpp">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
