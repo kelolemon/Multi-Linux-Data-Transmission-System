@@ -40,6 +40,10 @@ void sender(int sender_socket) {
         unit_message.header.TotalPackageNumber = load_file_data.size();
         unit_message.header.checkSum = 0; // temporary
         unit_message.header.PackageSize = sizeof unit_message;
+        // write size
+        int size = sizeof unit_message;
+        int l_size = htonl(size);
+        write(sender_socket, &l_size, 4);
         // prepare to write
         auto res = write_message(&unit_message, sizeof unit_message, sender_socket);
         if (res) {
