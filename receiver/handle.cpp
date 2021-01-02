@@ -55,8 +55,15 @@ void handle(int sender_socket) {
         //store in buffer
         if (buffer_file_data.find(unit_message.header.PackageId) == buffer_file_data.end()) {
             strcpy(buffer_file_data[unit_message.header.PackageId], unit_message.message);
+            forward(unit_message);
         }
         //receive the buffer, forward to another hosts.
-
     }
+    //
+//    for(auto & iter : buffer_file_data){
+//        FILE *fp=fopen("../data/buffer_file","w");
+//        char buf[BIT_SIZE + 1];
+//        memset(buf, 0, sizeof(buf));
+//        strcpy(buf, iter.second);
+//    }
 }
