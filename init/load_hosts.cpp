@@ -6,6 +6,7 @@
 
 using namespace std;
 
+map<int, int>host_data;
 int my_host;
 int tot_host;
 
@@ -15,4 +16,7 @@ void load_hosts() {
     config_doc >> root;
     tot_host = root["tot"].asInt();
     my_host = root["my_id"].asInt();
+    for (auto i = 0; i < tot_host; i++) {
+        host_data[i] = root[to_string(i)].asInt();
+    }
 }
