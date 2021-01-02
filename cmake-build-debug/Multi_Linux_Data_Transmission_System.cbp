@@ -110,6 +110,12 @@
 		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/init/config.cpp">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
+		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/init/get_host.cpp">
+			<Option target="Multi_Linux_Data_Transmission_System"/>
+		</Unit>
+		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/init/get_host.h">
+			<Option target="Multi_Linux_Data_Transmission_System"/>
+		</Unit>
 		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/init/init.cpp">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>

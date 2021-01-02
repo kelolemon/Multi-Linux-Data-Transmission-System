@@ -7,10 +7,6 @@
 using namespace std;
 
 // this host_data means the data of host of id i contains the connections_addr[host_data[i]]
-map<int, int>host_data;
-
-int my_host;
-int tot_host;
 
 void load_hosts() {
     Json::Value root;

@@ -278,6 +278,33 @@ init/config.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/init/config.cpp.s
 .PHONY : init/config.cpp.s
 
+init/get_host.o: init/get_host.cpp.o
+
+.PHONY : init/get_host.o
+
+# target to build an object file
+init/get_host.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/init/get_host.cpp.o
+.PHONY : init/get_host.cpp.o
+
+init/get_host.i: init/get_host.cpp.i
+
+.PHONY : init/get_host.i
+
+# target to preprocess a source file
+init/get_host.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/init/get_host.cpp.i
+.PHONY : init/get_host.cpp.i
+
+init/get_host.s: init/get_host.cpp.s
+
+.PHONY : init/get_host.s
+
+# target to generate assembly for a file
+init/get_host.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/init/get_host.cpp.s
+.PHONY : init/get_host.cpp.s
+
 init/init.o: init/init.cpp.o
 
 .PHONY : init/init.o
@@ -626,6 +653,9 @@ help:
 	@echo "... init/config.o"
 	@echo "... init/config.i"
 	@echo "... init/config.s"
+	@echo "... init/get_host.o"
+	@echo "... init/get_host.i"
+	@echo "... init/get_host.s"
 	@echo "... init/init.o"
 	@echo "... init/init.i"
 	@echo "... init/init.s"

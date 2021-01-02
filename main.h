@@ -8,8 +8,8 @@
 extern void init();
 extern void test_tcp(int argc, char *argv[]);
 extern void test();
-extern void receive_init(char *addr, char *port);
-extern void sender_init(char *addr, char *port);
+extern void receive_init(char* addr, char* port);
+extern void sender_init(char* addr, char* port);
 extern int my_host;
-
+extern std::pair<std::string, std::string> get_host(int host_id);
 #endif //MULTI_LINUX_DATA_TRANSMISSION_SYSTEM_MAIN_H

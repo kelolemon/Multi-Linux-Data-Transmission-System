@@ -1,8 +1,9 @@
 //
 // Created by Kelo Deng on 2020/10/21.
 //
+#include <string>
 # include "sender_init.h"
-void sender_init(char *addr, char *port) {
+void sender_init(char* addr, char* port) {
     int res(0);
     // create sender socket
     int sender_socket = socket(PF_INET, SOCK_STREAM, 0);
