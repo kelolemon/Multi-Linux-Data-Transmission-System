@@ -7,11 +7,13 @@ void receive_init(char *addr, char *port) {
     int res(0);
     char ipv4_sender_addr[20];
     // init the socket
+    puts("enter receive init");
     int receive_socket = socket(PF_INET, SOCK_STREAM, 0);
     if (receive_socket < 0) {
         puts("Init Socket error!");
         return;
     }
+    puts("socket created");
 
     // init the network addr
     char *ret;

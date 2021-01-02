@@ -169,6 +169,33 @@ Test/Test.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Test/Test.cpp.s
 .PHONY : Test/Test.cpp.s
 
+crypto/sha256.o: crypto/sha256.cpp.o
+
+.PHONY : crypto/sha256.o
+
+# target to build an object file
+crypto/sha256.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/crypto/sha256.cpp.o
+.PHONY : crypto/sha256.cpp.o
+
+crypto/sha256.i: crypto/sha256.cpp.i
+
+.PHONY : crypto/sha256.i
+
+# target to preprocess a source file
+crypto/sha256.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/crypto/sha256.cpp.i
+.PHONY : crypto/sha256.cpp.i
+
+crypto/sha256.s: crypto/sha256.cpp.s
+
+.PHONY : crypto/sha256.s
+
+# target to generate assembly for a file
+crypto/sha256.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/crypto/sha256.cpp.s
+.PHONY : crypto/sha256.cpp.s
+
 data_processing/buffer_file.o: data_processing/buffer_file.cpp.o
 
 .PHONY : data_processing/buffer_file.o
@@ -303,6 +330,33 @@ init/load_connection.s: init/load_connection.cpp.s
 init/load_connection.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/init/load_connection.cpp.s
 .PHONY : init/load_connection.cpp.s
+
+init/load_hosts.o: init/load_hosts.cpp.o
+
+.PHONY : init/load_hosts.o
+
+# target to build an object file
+init/load_hosts.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/init/load_hosts.cpp.o
+.PHONY : init/load_hosts.cpp.o
+
+init/load_hosts.i: init/load_hosts.cpp.i
+
+.PHONY : init/load_hosts.i
+
+# target to preprocess a source file
+init/load_hosts.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/init/load_hosts.cpp.i
+.PHONY : init/load_hosts.cpp.i
+
+init/load_hosts.s: init/load_hosts.cpp.s
+
+.PHONY : init/load_hosts.s
+
+# target to generate assembly for a file
+init/load_hosts.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/init/load_hosts.cpp.s
+.PHONY : init/load_hosts.cpp.s
 
 json_cpp/lib_json/json_reader.o: json_cpp/lib_json/json_reader.cpp.o
 
@@ -559,6 +613,9 @@ help:
 	@echo "... Test/Test.o"
 	@echo "... Test/Test.i"
 	@echo "... Test/Test.s"
+	@echo "... crypto/sha256.o"
+	@echo "... crypto/sha256.i"
+	@echo "... crypto/sha256.s"
 	@echo "... data_processing/buffer_file.o"
 	@echo "... data_processing/buffer_file.i"
 	@echo "... data_processing/buffer_file.s"
@@ -574,6 +631,9 @@ help:
 	@echo "... init/load_connection.o"
 	@echo "... init/load_connection.i"
 	@echo "... init/load_connection.s"
+	@echo "... init/load_hosts.o"
+	@echo "... init/load_hosts.i"
+	@echo "... init/load_hosts.s"
 	@echo "... json_cpp/lib_json/json_reader.o"
 	@echo "... json_cpp/lib_json/json_reader.i"
 	@echo "... json_cpp/lib_json/json_reader.s"

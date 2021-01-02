@@ -39,6 +39,10 @@ void handle(int sender_socket) {
         int l_size = 0;
         read(sender_socket, &l_size, 4);
         int size = ntohl(l_size);
+
+        if (size == 0) {
+            break;
+        }
         //read
         Message unit_message{};
         auto res = read_message(&unit_message, size, sender_socket);
@@ -46,17 +50,13 @@ void handle(int sender_socket) {
             printf("receive successfully\n");
         }else{
             puts("error!");
-            return;
-        }
-        if(buffer_file_data[unit_message.header.PackageId] == NULL){
-            strcpy(buffer_file_data[unit_message.header.PackageId], unit_message.message);
-        }
-        if(unit_message.header.PackageId == unit_message.header.TotalPackageNumber){
             break;
         }
-    }
-
-    for(auto & iter : buffer_file_data){
-        std::cout << iter.first << ":" << iter.second << std::endl;
+        //store in buffer
+        if (buffer_file_data.find(unit_message.header.PackageId) == buffer_file_data.end()) {
+            strcpy(buffer_file_data[unit_message.header.PackageId], unit_message.message);
+        }
+        //receive the buffer, forward to another hosts.
+        
     }
 }

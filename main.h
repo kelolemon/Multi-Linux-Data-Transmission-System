@@ -8,4 +8,7 @@
 extern void init();
 extern void test_tcp(int argc, char *argv[]);
 extern void test();
+extern void receive_init(char *addr, char *port);
+extern void sender_init(char *addr, char *port);
+
 #endif //MULTI_LINUX_DATA_TRANSMISSION_SYSTEM_MAIN_H
