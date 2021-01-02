@@ -1,3 +1,4 @@
 {
-  "connections": ["127.0.0.1:8080", "127.0.0.1:15551", "channel_1.cetacis.dev"]
+  "connections_addr": ["127.0.0.1", "127.0.0.1", "channel_1.cetacis.dev"],
+  "connections_port": ["8080", "1551", "443"]
 }

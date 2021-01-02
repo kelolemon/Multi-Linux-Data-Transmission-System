@@ -10,7 +10,7 @@ add_executable(
         receiver/handle.cpp
         receiver/receive_init.h
         receiver/handle.h
-        receiver/receive.cpp
+        receiver/forward.cpp
         main.h
         Test/Test.cpp
         Test/Test.h

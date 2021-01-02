@@ -11,5 +11,6 @@
 # include "../include/global.h"
 # include <iostream>
 extern int connections_len;
-extern std::string connections[MAX_CONNECTIONS];
+extern std::string connections_addr[MAX_CONNECTIONS];
+extern std::string connections_port[MAX_CONNECTIONS];
 #endif //MULTI_LINUX_DATA_TRANSMISSION_SYSTEM_LOAD_CONNECTION_H

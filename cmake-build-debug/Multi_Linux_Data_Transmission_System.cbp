@@ -8,175 +8,175 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/fzy/CLionProjects/Multi-Linux-Data-Transmission-System/cmake-build-debug"/>
+				<Option working_dir="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="d:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/fzy/CLionProjects/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="d:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/fzy/CLionProjects/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="d:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/fzy/CLionProjects/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="d:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/fzy/CLionProjects/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Multi_Linux_Data_Transmission_System">
-				<Option output="C:/Users/fzy/CLionProjects/Multi-Linux-Data-Transmission-System/cmake-build-debug/Multi_Linux_Data_Transmission_System.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/fzy/CLionProjects/Multi-Linux-Data-Transmission-System/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++"/>
-					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/mingw32"/>
-					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/backward"/>
-					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/8.2.0/include"/>
-					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include"/>
-					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="d:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/fzy/CLionProjects/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 Multi_Linux_Data_Transmission_System"/>
-					<CompileFile command="d:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/fzy/CLionProjects/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="d:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/fzy/CLionProjects/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="d:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/fzy/CLionProjects/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Multi_Linux_Data_Transmission_System/fast">
-				<Option output="C:/Users/fzy/CLionProjects/Multi-Linux-Data-Transmission-System/cmake-build-debug/Multi_Linux_Data_Transmission_System.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/fzy/CLionProjects/Multi-Linux-Data-Transmission-System/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++"/>
-					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/mingw32"/>
-					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/backward"/>
-					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/8.2.0/include"/>
-					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include"/>
-					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="d:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/fzy/CLionProjects/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 Multi_Linux_Data_Transmission_System/fast"/>
-					<CompileFile command="d:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/fzy/CLionProjects/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="d:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/fzy/CLionProjects/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="d:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/fzy/CLionProjects/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="C:/Users/fzy/CLionProjects/Multi-Linux-Data-Transmission-System/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="d:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/fzy/CLionProjects/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="d:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/fzy/CLionProjects/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="d:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/fzy/CLionProjects/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="d:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/fzy/CLionProjects/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/fzy/CLionProjects/Multi-Linux-Data-Transmission-System/cmake-build-debug"/>
+				<Option working_dir="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="d:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/fzy/CLionProjects/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="d:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/fzy/CLionProjects/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="d:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/fzy/CLionProjects/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="d:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/fzy/CLionProjects/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Multi_Linux_Data_Transmission_System">
+				<Option output="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/Multi_Linux_Data_Transmission_System" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 Multi_Linux_Data_Transmission_System"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Multi_Linux_Data_Transmission_System/fast">
+				<Option output="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/Multi_Linux_Data_Transmission_System" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 Multi_Linux_Data_Transmission_System/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/fzy/CLionProjects/Multi-Linux-Data-Transmission-System/Test/Test.cpp">
+		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/Test/Test.cpp">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="C:/Users/fzy/CLionProjects/Multi-Linux-Data-Transmission-System/Test/Test.h">
+		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/Test/Test.h">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="C:/Users/fzy/CLionProjects/Multi-Linux-Data-Transmission-System/crypto/sha256.cpp">
+		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/crypto/sha256.cpp">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="C:/Users/fzy/CLionProjects/Multi-Linux-Data-Transmission-System/crypto/sha256.h">
+		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/crypto/sha256.h">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="C:/Users/fzy/CLionProjects/Multi-Linux-Data-Transmission-System/data_processing/buffer_file.cpp">
+		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/data_processing/buffer_file.cpp">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="C:/Users/fzy/CLionProjects/Multi-Linux-Data-Transmission-System/data_processing/buffer_file.h">
+		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/data_processing/buffer_file.h">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="C:/Users/fzy/CLionProjects/Multi-Linux-Data-Transmission-System/data_processing/load_file.cpp">
+		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/data_processing/load_file.cpp">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="C:/Users/fzy/CLionProjects/Multi-Linux-Data-Transmission-System/data_processing/load_file.h">
+		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/data_processing/load_file.h">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="C:/Users/fzy/CLionProjects/Multi-Linux-Data-Transmission-System/include/global.h">
+		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/include/global.h">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="C:/Users/fzy/CLionProjects/Multi-Linux-Data-Transmission-System/init/config.cpp">
+		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/init/config.cpp">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="C:/Users/fzy/CLionProjects/Multi-Linux-Data-Transmission-System/init/init.cpp">
+		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/init/init.cpp">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="C:/Users/fzy/CLionProjects/Multi-Linux-Data-Transmission-System/init/init.h">
+		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/init/init.h">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="C:/Users/fzy/CLionProjects/Multi-Linux-Data-Transmission-System/init/load_connection.cpp">
+		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/init/load_connection.cpp">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="C:/Users/fzy/CLionProjects/Multi-Linux-Data-Transmission-System/init/load_connection.h">
+		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/init/load_connection.h">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="C:/Users/fzy/CLionProjects/Multi-Linux-Data-Transmission-System/init/load_hosts.cpp">
+		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/init/load_hosts.cpp">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="C:/Users/fzy/CLionProjects/Multi-Linux-Data-Transmission-System/init/load_hosts.h">
+		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/init/load_hosts.h">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="C:/Users/fzy/CLionProjects/Multi-Linux-Data-Transmission-System/json_cpp/lib_json/json_reader.cpp">
+		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/json_cpp/lib_json/json_reader.cpp">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="C:/Users/fzy/CLionProjects/Multi-Linux-Data-Transmission-System/json_cpp/lib_json/json_tool.h">
+		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/json_cpp/lib_json/json_tool.h">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="C:/Users/fzy/CLionProjects/Multi-Linux-Data-Transmission-System/json_cpp/lib_json/json_value.cpp">
+		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/json_cpp/lib_json/json_value.cpp">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="C:/Users/fzy/CLionProjects/Multi-Linux-Data-Transmission-System/json_cpp/lib_json/json_valueiterator.inl">
+		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/json_cpp/lib_json/json_valueiterator.inl">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="C:/Users/fzy/CLionProjects/Multi-Linux-Data-Transmission-System/json_cpp/lib_json/json_writer.cpp">
+		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/json_cpp/lib_json/json_writer.cpp">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="C:/Users/fzy/CLionProjects/Multi-Linux-Data-Transmission-System/main.cpp">
+		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/main.cpp">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="C:/Users/fzy/CLionProjects/Multi-Linux-Data-Transmission-System/main.h">
+		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/main.h">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="C:/Users/fzy/CLionProjects/Multi-Linux-Data-Transmission-System/receiver/handle.cpp">
+		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/receiver/forward.cpp">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="C:/Users/fzy/CLionProjects/Multi-Linux-Data-Transmission-System/receiver/handle.h">
+		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/receiver/handle.cpp">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="C:/Users/fzy/CLionProjects/Multi-Linux-Data-Transmission-System/receiver/receive.cpp">
+		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/receiver/handle.h">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="C:/Users/fzy/CLionProjects/Multi-Linux-Data-Transmission-System/receiver/receive_init.cpp">
+		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/receiver/receive_init.cpp">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="C:/Users/fzy/CLionProjects/Multi-Linux-Data-Transmission-System/receiver/receive_init.h">
+		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/receiver/receive_init.h">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="C:/Users/fzy/CLionProjects/Multi-Linux-Data-Transmission-System/sender/sender.cpp">
+		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/sender/sender.cpp">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="C:/Users/fzy/CLionProjects/Multi-Linux-Data-Transmission-System/sender/sender.h">
+		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/sender/sender.h">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="C:/Users/fzy/CLionProjects/Multi-Linux-Data-Transmission-System/sender/sender_init.cpp">
+		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/sender/sender_init.cpp">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="C:/Users/fzy/CLionProjects/Multi-Linux-Data-Transmission-System/sender/sender_init.h">
+		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/sender/sender_init.h">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="C:/Users/fzy/CLionProjects/Multi-Linux-Data-Transmission-System/CMakeLists.txt">
+		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
