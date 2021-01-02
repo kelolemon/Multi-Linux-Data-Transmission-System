@@ -9,28 +9,12 @@
 # include <cstdlib>
 # include <cstring>
 # include <unistd.h>
-# include <sys/socket.h>
 # include <netinet/in.h>
 # include <arpa/inet.h>
 # include <csignal>
 # include <cerrno>
 # include <pthread.h>
 extern void sender(int sender_socket);
-typedef struct
-{
-    struct sockaddr_in rev_address;
-    struct sockaddr_in send_address;
-    int total_bytes;
-    int bag_number;
-    int checknum;
-    int TTL;
-}header;
-
-typedef struct 
-{
-    header* header;
-    char* message;
-}message;
 #endif //MULTI_LINUX_DATA_TRANSMISSION_SYSTEM_SENDER_INIT_H
 
 

@@ -14,28 +14,13 @@
 # include <sys/socket.h>
 # include <cstdio>
 # include <cstdlib>
-# include <cstring>
 # include <unistd.h>
-# include <sys/socket.h>
 # include <netinet/in.h>
 # include <arpa/inet.h>
 # include <csignal>
 # include <cerrno>
 # include <pthread.h>
-
-struct header {
-    struct sockaddr_in receive_addr;
-    struct sockaddr_in sender_addr;
-    int total_bytes;
-    int bag_number;
-    int bag_bytes;
-    int checksum;
-    int TTL;
-};
-
-struct sender_argv {
-    struct header sender_head;
-    int sender_socket;
-};
-
+# include <map>
+# include "../include/global.h"
+extern std::map<int, char[BIT_SIZE + 1]>buffer_file_data;
 #endif //MULTI_LINUX_DATA_TRANSMISSION_SYSTEM_HANDLE_H
