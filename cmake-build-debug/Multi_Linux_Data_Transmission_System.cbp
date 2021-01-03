@@ -104,6 +104,12 @@
 		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/data_processing/load_file.h">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
+		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/data_processing/write_file.cpp">
+			<Option target="Multi_Linux_Data_Transmission_System"/>
+		</Unit>
+		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/data_processing/write_file.h">
+			<Option target="Multi_Linux_Data_Transmission_System"/>
+		</Unit>
 		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/include/global.h">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>

@@ -63,14 +63,4 @@ void handle(int sender_socket) {
             break;
         }
     }
-    //write messages to file
-    FILE *fp = fopen("../receive_data/buffer_file.txt","w+");
-    for(auto message : buffer_file_data){
-       if(fputs( message.message, FILE *fp ) != EOF){
-           printf("write message of one package successfully!");
-       }
-    //    char buf[BIT_SIZE + 1];
-    //    memset(buf, 0, sizeof(buf));
-    //    strcpy(buf, iter.second);
-   }
 }

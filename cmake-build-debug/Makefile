@@ -251,6 +251,33 @@ data_processing/load_file.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/data_processing/load_file.cpp.s
 .PHONY : data_processing/load_file.cpp.s
 
+data_processing/write_file.o: data_processing/write_file.cpp.o
+
+.PHONY : data_processing/write_file.o
+
+# target to build an object file
+data_processing/write_file.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/data_processing/write_file.cpp.o
+.PHONY : data_processing/write_file.cpp.o
+
+data_processing/write_file.i: data_processing/write_file.cpp.i
+
+.PHONY : data_processing/write_file.i
+
+# target to preprocess a source file
+data_processing/write_file.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/data_processing/write_file.cpp.i
+.PHONY : data_processing/write_file.cpp.i
+
+data_processing/write_file.s: data_processing/write_file.cpp.s
+
+.PHONY : data_processing/write_file.s
+
+# target to generate assembly for a file
+data_processing/write_file.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/data_processing/write_file.cpp.s
+.PHONY : data_processing/write_file.cpp.s
+
 init/config.o: init/config.cpp.o
 
 .PHONY : init/config.o
@@ -650,6 +677,9 @@ help:
 	@echo "... data_processing/load_file.o"
 	@echo "... data_processing/load_file.i"
 	@echo "... data_processing/load_file.s"
+	@echo "... data_processing/write_file.o"
+	@echo "... data_processing/write_file.i"
+	@echo "... data_processing/write_file.s"
 	@echo "... init/config.o"
 	@echo "... init/config.i"
 	@echo "... init/config.s"
