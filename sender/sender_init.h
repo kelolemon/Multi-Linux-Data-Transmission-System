@@ -14,7 +14,7 @@
 # include <csignal>
 # include <cerrno>
 # include <pthread.h>
-extern void sender(int sender_socket);
+extern void sender(int sender_socket, int i);
 #endif //MULTI_LINUX_DATA_TRANSMISSION_SYSTEM_SENDER_INIT_H
 
 

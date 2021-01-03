@@ -22,5 +22,6 @@
 # include <pthread.h>
 # include <map>
 # include "../include/global.h"
+# include "../main.h"
 extern std::map<int, char[BIT_SIZE + 1]>load_file_data;
 #endif //MULTI_LINUX_DATA_TRANSMISSION_SYSTEM_SENDER_H
