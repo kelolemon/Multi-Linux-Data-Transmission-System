@@ -37,4 +37,7 @@ add_executable(
         init/load_hosts.h
         crypto/sha256.cpp
         crypto/sha256.h
-        init/get_host.cpp init/get_host.h data_processing/write_file.cpp data_processing/write_file.h)
+        init/get_host.cpp
+        init/get_host.h
+        data_processing/write_file.cpp
+        data_processing/write_file.h)
