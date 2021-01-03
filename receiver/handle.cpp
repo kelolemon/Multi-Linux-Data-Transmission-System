@@ -39,7 +39,6 @@ void handle(int sender_socket) {
         int l_size = 0;
         read(sender_socket, &l_size, 4);
         int size = ntohl(l_size);
-
         if (size == 0) {
             break;
         }
@@ -57,10 +56,13 @@ void handle(int sender_socket) {
             strcpy(buffer_file_data[unit_message.header.PackageId], unit_message.message);
             forward(unit_message);
         }
-        //receive the buffer, forward to another hosts.
         if (buffer_file_data.size() == unit_message.header.TotalPackageNumber){
             printf("The message is all received");
             break;
         }
     }
+    //write to the file
+    char filename[255];
+    strcpy(filename, "../data/receive_test_data.txt");
+    write_file(filename);
 }
