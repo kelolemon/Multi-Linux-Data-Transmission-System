@@ -277,6 +277,33 @@ init/config.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/init/config.cpp.s
 .PHONY : init/config.cpp.s
 
+init/get_host.o: init/get_host.cpp.o
+
+.PHONY : init/get_host.o
+
+# target to build an object file
+init/get_host.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/init/get_host.cpp.o
+.PHONY : init/get_host.cpp.o
+
+init/get_host.i: init/get_host.cpp.i
+
+.PHONY : init/get_host.i
+
+# target to preprocess a source file
+init/get_host.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/init/get_host.cpp.i
+.PHONY : init/get_host.cpp.i
+
+init/get_host.s: init/get_host.cpp.s
+
+.PHONY : init/get_host.s
+
+# target to generate assembly for a file
+init/get_host.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/init/get_host.cpp.s
+.PHONY : init/get_host.cpp.s
+
 init/init.o: init/init.cpp.o
 
 .PHONY : init/init.o
@@ -466,6 +493,33 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+receiver/forward.o: receiver/forward.cpp.o
+
+.PHONY : receiver/forward.o
+
+# target to build an object file
+receiver/forward.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/receiver/forward.cpp.o
+.PHONY : receiver/forward.cpp.o
+
+receiver/forward.i: receiver/forward.cpp.i
+
+.PHONY : receiver/forward.i
+
+# target to preprocess a source file
+receiver/forward.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/receiver/forward.cpp.i
+.PHONY : receiver/forward.cpp.i
+
+receiver/forward.s: receiver/forward.cpp.s
+
+.PHONY : receiver/forward.s
+
+# target to generate assembly for a file
+receiver/forward.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/receiver/forward.cpp.s
+.PHONY : receiver/forward.cpp.s
+
 receiver/handle.o: receiver/handle.cpp.o
 
 .PHONY : receiver/handle.o
@@ -492,33 +546,6 @@ receiver/handle.s: receiver/handle.cpp.s
 receiver/handle.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/receiver/handle.cpp.s
 .PHONY : receiver/handle.cpp.s
-
-receiver/receive.o: receiver/receive.cpp.o
-
-.PHONY : receiver/receive.o
-
-# target to build an object file
-receiver/receive.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/receiver/receive.cpp.o
-.PHONY : receiver/receive.cpp.o
-
-receiver/receive.i: receiver/receive.cpp.i
-
-.PHONY : receiver/receive.i
-
-# target to preprocess a source file
-receiver/receive.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/receiver/receive.cpp.i
-.PHONY : receiver/receive.cpp.i
-
-receiver/receive.s: receiver/receive.cpp.s
-
-.PHONY : receiver/receive.s
-
-# target to generate assembly for a file
-receiver/receive.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/receiver/receive.cpp.s
-.PHONY : receiver/receive.cpp.s
 
 receiver/receive_init.o: receiver/receive_init.cpp.o
 
@@ -625,6 +652,9 @@ help:
 	@echo "... init/config.o"
 	@echo "... init/config.i"
 	@echo "... init/config.s"
+	@echo "... init/get_host.o"
+	@echo "... init/get_host.i"
+	@echo "... init/get_host.s"
 	@echo "... init/init.o"
 	@echo "... init/init.i"
 	@echo "... init/init.s"
@@ -646,12 +676,12 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... receiver/forward.o"
+	@echo "... receiver/forward.i"
+	@echo "... receiver/forward.s"
 	@echo "... receiver/handle.o"
 	@echo "... receiver/handle.i"
 	@echo "... receiver/handle.s"
-	@echo "... receiver/receive.o"
-	@echo "... receiver/receive.i"
-	@echo "... receiver/receive.s"
 	@echo "... receiver/receive_init.o"
 	@echo "... receiver/receive_init.i"
 	@echo "... receiver/receive_init.s"
