@@ -48,7 +48,9 @@ void forward(Message unit_message){
 
     for(int i = 0; i < connections_len; i++){
         if (i != my_host){
-            forward_init(connections_addr[i], connections_port[i]);
+            const char *addr = connections_addr[i].data();
+            const char *port = connections_port[i].data();
+            forward_init(addr, port);
             unit_message.header.DestinationId = i; // temporary
             unit_message.header.LastLeapId = my_host; // temporary
             // write size

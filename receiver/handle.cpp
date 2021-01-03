@@ -58,12 +58,19 @@ void handle(int sender_socket) {
             forward(unit_message);
         }
         //receive the buffer, forward to another hosts.
+        if (buffer_file_data.size() == unit_message.header.TotalPackageNumber){
+            printf("The message is all received");
+            break;
+        }
     }
-    //
-//    for(auto & iter : buffer_file_data){
-//        FILE *fp=fopen("../data/buffer_file","w");
-//        char buf[BIT_SIZE + 1];
-//        memset(buf, 0, sizeof(buf));
-//        strcpy(buf, iter.second);
-//    }
+    //write messages to file
+    FILE *fp = fopen("../receive_data/buffer_file.txt","w+");
+    for(auto message : buffer_file_data){
+       if(fputs( message.message, FILE *fp ) != EOF){
+           printf("write message of one package successfully!");
+       }
+    //    char buf[BIT_SIZE + 1];
+    //    memset(buf, 0, sizeof(buf));
+    //    strcpy(buf, iter.second);
+   }
 }
