@@ -2,7 +2,7 @@
 // Created by Kelo Deng on 2020/10/21.
 //
 # include "receive_init.h"
-
+std::vector<std::vector<int>> ACK_matrix;
 void receive_init(char *addr, char *port) {
     int res(0);
     char ipv4_sender_addr[20];
@@ -50,10 +50,27 @@ void receive_init(char *addr, char *port) {
         // accepted sender socket. handle package.
         inet_ntop(AF_INET, (void *) &sender_addr.sin_addr, ipv4_sender_addr, 16);
         printf("[receiver] sender[%s:%d] is accepted!\n", ipv4_sender_addr, ntohs(sender_addr.sin_port));
+        //receive the package number and init the ACK
+        int rev_package_number;
+        read(sender_socket, &rev_package_number, sizeof rev_package_number);
+        load_ACK_matrix(rev_package_number);
         handle(sender_socket);
         close(sender_socket);
     }
     close(receive_socket);
     printf("[receiver] listen is closed!\n");
     printf("[receiver] server is exiting\n");
+}
+
+void load_ACK_matrix(int rev_package_number){ //初始化为0
+    for(int i = 0;i < rev_package_number; i++){
+        std::vector<int> tmp;//一维vector  tmp
+        for(int j = 0;j < tot_host; j++){
+             if(j == my_host){
+                 tmp.push_back(1); // 当为自己的ip时候就不用再转发
+             }
+             tmp.push_back(0);
+         }
+        ACK_matrix.push_back(tmp);//把一维 vector tmp 放进 二维vector vt
+    }
 }

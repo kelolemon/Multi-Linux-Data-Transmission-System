@@ -34,6 +34,7 @@ void sender(int sender_socket, int to_host) {
         strcpy(unit_message.message, iter.second);
         unit_message.header.PackageId = iter.first;
         unit_message.header.IsBroadCast = true; // temporary
+        unit_message.header.IsACK = false; // temporary
         unit_message.header.DestinationId = to_host;
         unit_message.header.LastLeapId = my_host;
         unit_message.header.SourceId = my_host;

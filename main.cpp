@@ -1,6 +1,7 @@
 # include "main.h"
 
 char filename[255];
+int to_hosts;
 
 int main(int argc, char *argv[]) {
     init();

@@ -14,7 +14,10 @@
 # include <csignal>
 # include <cerrno>
 # include <pthread.h>
+# include <map>
+# include "../include/global.h"
 extern void sender(int sender_socket, int i);
+extern std::map<int, char[BIT_SIZE + 1]>load_file_data;
 #endif //MULTI_LINUX_DATA_TRANSMISSION_SYSTEM_SENDER_INIT_H
 
 
