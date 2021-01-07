@@ -84,6 +84,7 @@ void handle(int sender_socket) {
                         forward_message.header.checkSum = 0; // temporary
                         forward_message.header.PackageSize = sizeof buffer_file_data[i];
                         forward(forward_message);
+                        break;
                     }
                 }
 
