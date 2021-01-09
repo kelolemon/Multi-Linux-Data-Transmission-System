@@ -48,7 +48,7 @@ void handle(int sender_socket) {
         if(res){
             printf("receive successfully\n");
             //send_ACK(ACK)
-            if(unit_message.header.IsACK == false){
+            if(!unit_message.header.IsACK){
                 send_ACK(unit_message);
             }
             else{
