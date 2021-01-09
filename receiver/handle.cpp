@@ -47,6 +47,8 @@ void handle(int sender_socket) {
         auto res = read_message(&unit_message, size, sender_socket);
         if(res){
             printf("receive successfully\n");
+            // decrypt
+            strcpy(unit_message.message, (char *)RsaPriDecrypt(unit_message.message, PRIVATE_KEY_FILENAME).c_str());
             //send_ACK(ACK)
             if(!unit_message.header.IsACK){
                 send_ACK(unit_message);
@@ -58,13 +60,16 @@ void handle(int sender_socket) {
             puts("error!");
             break;
         }
+
         //store in buffer
+        if (unit_message.header.checkSum != encrypt_sha256(unit_message.message)) {
+            //TODO need to drop this package and notify sender to resend this package
+        }
         if (buffer_file_data.find(unit_message.header.PackageId) == buffer_file_data.end()) {
             strcpy(buffer_file_data[unit_message.header.PackageId], unit_message.message);
             if(buffer_file_data.size() > unit_message.header.TotalPackageNumber / 2){
-                forward(unit_message);//大于百分之五十转发
+                forward(unit_message);
             }
-
         }
         if (buffer_file_data.size() == unit_message.header.TotalPackageNumber){
             printf("The message is all received");
@@ -81,7 +86,7 @@ void handle(int sender_socket) {
                         forward_message.header.LastLeapId = my_host;
                         forward_message.header.SourceId = my_host;
                         forward_message.header.TotalPackageNumber = buffer_file_data.size();
-                        forward_message.header.checkSum = 0; // temporary
+                        forward_message.header.checkSum = encrypt_sha256(forward_message.message);
                         forward_message.header.PackageSize = sizeof buffer_file_data[i];
                         forward(forward_message);
                         break;
@@ -98,7 +103,7 @@ void handle(int sender_socket) {
     write_file(filename);
 }
 
-void send_ACK(Message unit_message){
+void send_ACK(const Message& unit_message){
     Message ACK_message{};
     strcpy(ACK_message.message, "this is a ACK");
     ACK_message.header.PackageId = unit_message.header.PackageId;
@@ -108,13 +113,13 @@ void send_ACK(Message unit_message){
     ACK_message.header.LastLeapId = unit_message.header.SourceId;
     ACK_message.header.SourceId = unit_message.header.DestinationId;
     ACK_message.header.TotalPackageNumber = 0;
-    ACK_message.header.checkSum = 0; // temporary
+    ACK_message.header.checkSum = ""; // temporary
     ACK_message.header.PackageSize = sizeof ACK_message;
     forward(ACK_message);
     printf("send ACK successfully!");
 }
 
-void receive_ACK(Message unit_message){
+void receive_ACK(const Message& unit_message){
     ACK_matrix[unit_message.header.PackageId][unit_message.header.DestinationId] = 1;
     printf("Receive ACK%d from %d", unit_message.header.PackageId, unit_message.header.DestinationId);
 }

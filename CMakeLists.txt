@@ -44,7 +44,7 @@ add_executable(
         data_processing/write_file.cpp
         data_processing/write_file.h
         ${SOURCES}
-)
+        init/load_key_filename.cpp init/load_key_filename.h crypto/rsa.cpp crypto/rsa.h)
 
 target_link_libraries(${PROJECT_NAME} -lssl)
 target_link_libraries(${PROJECT_NAME} -lcrypto)

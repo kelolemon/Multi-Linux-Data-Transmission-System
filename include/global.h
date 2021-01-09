@@ -4,7 +4,7 @@
 
 #ifndef MULTI_LINUX_DATA_TRANSMISSION_SYSTEM_GLOBAL_H
 #define MULTI_LINUX_DATA_TRANSMISSION_SYSTEM_GLOBAL_H
-
+# define PRIVATE_KEY_FILENAME "./config/rsa.private"
 # define MAX_CONNECTIONS 10
 # define BIT_SIZE 256
 # include <cstring>
@@ -19,7 +19,7 @@ struct PackageHeader {
     int TotalPackageNumber;
     int PackageId;
     int PackageSize;
-    int checkSum;
+    std::string checkSum;
     int SourceId;
     int DestinationId;
     int LastLeapId;

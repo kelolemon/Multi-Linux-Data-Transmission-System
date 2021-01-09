@@ -1,6 +1,6 @@
 #include "handle.h"
 
-void forward(Message unit_message){
+void forward(const Message& unit_message){
     auto forward_message = [](int forward_socket, Message unit_message, int dest_id) -> void {
         auto write_message = [](void *message, int len, int sender_socket) -> bool {
             char *ptr = static_cast<char *>(message);
@@ -20,7 +20,7 @@ void forward(Message unit_message){
         };
         // write size
         int size = sizeof unit_message;
-        unit_message.header.DestinationId = dest_id; // temporary
+        unit_message.header.DestinationId = dest_id;
         unit_message.header.LastLeapId = my_host;
         int l_size = htonl(size);
         write(forward_socket, &l_size, 4);

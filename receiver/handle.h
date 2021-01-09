@@ -27,8 +27,12 @@
 extern std::map<int, char[BIT_SIZE + 1]>buffer_file_data;
 extern std::vector<std::vector<int>> ACK_matrix;
 extern int to_hosts;
-extern void forward(Message unit_message);
+extern void forward(const Message& unit_message);
 extern bool write_file(char* filename);
-void receive_ACK(Message unit_message);
-void send_ACK(Message unit_message);
+void receive_ACK(const Message& unit_message);
+void send_ACK(const Message& unit_message);
+std::string encrypt_sha256(const std::string& message);
+extern std::string get_host_key_filename(int host_id);
+extern std::string RsaPubEncrypt(const std::string &clear_text, const std::string &pub_key);
+extern std::string RsaPriDecrypt(const std::string &cipher_text, const std::string &pri_key);
 #endif //MULTI_LINUX_DATA_TRANSMISSION_SYSTEM_HANDLE_H

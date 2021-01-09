@@ -6,6 +6,7 @@
 
 std::string connections_addr[MAX_CONNECTIONS];
 std::string connections_port[MAX_CONNECTIONS];
+std::string pub_key_filename[MAX_CONNECTIONS];
 std::map<int, int>host_data;
 int connections_len = 0;
 int my_host;

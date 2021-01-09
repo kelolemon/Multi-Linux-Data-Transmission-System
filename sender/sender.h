@@ -24,4 +24,8 @@
 # include "../include/global.h"
 # include "../main.h"
 extern std::map<int, char[BIT_SIZE + 1]>load_file_data;
+std::string encrypt_sha256(const std::string& message);
+extern std::string get_host_key_filename(int host_id);
+extern std::string RsaPubEncrypt(const std::string &clear_text, const std::string &pub_key);
+extern std::string RsaPriDecrypt(const std::string &cipher_text, const std::string &pri_key);
 #endif //MULTI_LINUX_DATA_TRANSMISSION_SYSTEM_SENDER_H

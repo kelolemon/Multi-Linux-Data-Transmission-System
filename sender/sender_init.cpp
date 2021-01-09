@@ -31,7 +31,7 @@ void sender_init(char *addr, char *port, int to_host) {
         }
         printf("[sender] server[%s:%s] is connected!\n", addr, port);
         int package_number = load_file_data.size();
-       //send the paskage number first  
+       //send the package number first
         write(sender_socket, &package_number, sizeof package_number);
         sender(sender_socket, to_host);
     }

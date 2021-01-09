@@ -9,4 +9,5 @@
 extern std::string connections_addr[MAX_CONNECTIONS];
 extern std::string connections_port[MAX_CONNECTIONS];
 extern std::map<int, int>host_data;
+extern std::string pub_key_filename[MAX_CONNECTIONS];
 #endif //MULTI_LINUX_DATA_TRANSMISSION_SYSTEM_GET_HOST_H

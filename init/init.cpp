@@ -15,6 +15,5 @@ void init() {
     }
 
     load_hosts();
-
-
+    load_key_filename();
 }

@@ -5,6 +5,5 @@
 # include "Test.h"
 
 void test() {
-    string str = "sha256test";
-    std::cout << encrypt_sha256(str) << std::endl;
+
 }
