@@ -15,6 +15,7 @@
 
 struct PackageHeader {
     bool IsBroadCast;
+    bool IsACK;
     int TotalPackageNumber;
     int PackageId;
     int PackageSize;
