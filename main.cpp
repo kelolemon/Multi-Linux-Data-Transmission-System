@@ -15,7 +15,7 @@ int main(int argc, char *argv[]) {
         puts("begin to sender section");
         to_hosts = int(strtol(argv[2], nullptr, 10));
         auto hosts = get_host(to_hosts);
-        sender_init((char *) hosts.first.c_str(), (char *) hosts.second.c_str(), to_hosts);
+        sender_init((char *) hosts.first.c_str(), (char *) hosts.second.c_str(), to_hosts, true);
     } else {
         puts("begin to receive section");
         auto hosts = get_host(my_host);

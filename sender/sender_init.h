@@ -16,7 +16,7 @@
 # include <pthread.h>
 # include <map>
 # include "../include/global.h"
-extern void sender(int sender_socket, int i);
+extern void sender(int sender_socket, int to_host, bool is_broadcast);
 extern std::map<int, char[BIT_SIZE + 1]>load_file_data;
 #endif //MULTI_LINUX_DATA_TRANSMISSION_SYSTEM_SENDER_INIT_H
 

@@ -4,7 +4,7 @@
 
 # include "sender.h"
 
-void sender(int sender_socket, int to_host) {
+void sender(int sender_socket, int to_host, bool is_broadcast) {
     // core function
     // this function is to send package to receive node and use SR protocol
 
@@ -36,7 +36,7 @@ void sender(int sender_socket, int to_host) {
         // encrypt
         strcpy(unit_message.message, (char *)RsaPubEncrypt(unit_message.message, key_filename).c_str());
         unit_message.header.PackageId = iter.first;
-        unit_message.header.IsBroadCast = true; // temporary
+        unit_message.header.IsBroadCast = is_broadcast;
         unit_message.header.IsACK = false; // temporary
         unit_message.header.DestinationId = to_host;
         unit_message.header.LastLeapId = my_host;

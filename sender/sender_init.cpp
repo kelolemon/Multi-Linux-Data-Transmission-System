@@ -3,7 +3,7 @@
 //
 #include <string>
 # include "sender_init.h"
-void sender_init(char *addr, char *port, int to_host) {
+void sender_init(char *addr, char *port, int to_host, bool is_broadcast) {
     int res(0);
     // create sender socket
     int sender_socket = socket(PF_INET, SOCK_STREAM, 0);
@@ -33,7 +33,7 @@ void sender_init(char *addr, char *port, int to_host) {
         int package_number = load_file_data.size();
        //send the package number first
         write(sender_socket, &package_number, sizeof package_number);
-        sender(sender_socket, to_host);
+        sender(sender_socket, to_host,  is_broadcast);
     }
     close(sender_socket);
 }
