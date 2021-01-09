@@ -17,9 +17,17 @@ CMakeFiles/Multi_Linux_Data_Transmission_System.dir/data_processing/load_file.cp
  /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/data_processing/load_file.cpp
  /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/data_processing/load_file.h
  /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/include/global.h
+CMakeFiles/Multi_Linux_Data_Transmission_System.dir/data_processing/write_file.cpp.o
+ /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/data_processing/write_file.cpp
+ /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/data_processing/write_file.h
+ /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/include/global.h
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/init/config.cpp.o
  /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/include/global.h
  /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/init/config.cpp
+CMakeFiles/Multi_Linux_Data_Transmission_System.dir/init/get_host.cpp.o
+ /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/include/global.h
+ /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/init/get_host.cpp
+ /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/init/get_host.h
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/init/init.cpp.o
  /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/include/global.h
  /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/init/init.cpp
@@ -83,14 +91,36 @@ CMakeFiles/Multi_Linux_Data_Transmission_System.dir/json_cpp/lib_json/json_write
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/main.cpp.o
  /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/main.cpp
  /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/main.h
+CMakeFiles/Multi_Linux_Data_Transmission_System.dir/receiver/forward.cpp.o
+ /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/include/global.h
+ /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/include/json/allocator.h
+ /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/include/json/config.h
+ /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/include/json/forwards.h
+ /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/include/json/json.h
+ /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/include/json/json_features.h
+ /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/include/json/reader.h
+ /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/include/json/value.h
+ /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/include/json/version.h
+ /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/include/json/writer.h
+ /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/init/load_connection.h
+ /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/init/load_hosts.h
+ /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/receiver/forward.cpp
+ /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/receiver/handle.h
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/receiver/handle.cpp.o
  /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/include/global.h
+ /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/include/json/allocator.h
+ /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/include/json/config.h
+ /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/include/json/forwards.h
+ /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/include/json/json.h
+ /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/include/json/json_features.h
+ /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/include/json/reader.h
+ /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/include/json/value.h
+ /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/include/json/version.h
+ /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/include/json/writer.h
+ /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/init/load_connection.h
+ /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/init/load_hosts.h
  /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/receiver/handle.cpp
  /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/receiver/handle.h
-CMakeFiles/Multi_Linux_Data_Transmission_System.dir/receiver/receive.cpp.o
- /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/include/global.h
- /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/receiver/handle.h
- /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/receiver/receive.cpp
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/receiver/receive_init.cpp.o
  /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/receiver/receive_init.cpp
  /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/receiver/receive_init.h
