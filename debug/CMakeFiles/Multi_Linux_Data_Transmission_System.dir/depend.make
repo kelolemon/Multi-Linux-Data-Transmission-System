@@ -8,6 +8,10 @@ CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Test/Test.cpp.o: ../include/
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/crypto/sha256.cpp.o: ../crypto/sha256.cpp
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/crypto/sha256.cpp.o: ../crypto/sha256.h
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/crypto/sha256.cpp.o: ../include/global.h
+CMakeFiles/Multi_Linux_Data_Transmission_System.dir/crypto/sha256.cpp.o: /usr/local/opt/openssl@1.1/include/openssl/e_os2.h
+CMakeFiles/Multi_Linux_Data_Transmission_System.dir/crypto/sha256.cpp.o: /usr/local/opt/openssl@1.1/include/openssl/opensslconf.h
+CMakeFiles/Multi_Linux_Data_Transmission_System.dir/crypto/sha256.cpp.o: /usr/local/opt/openssl@1.1/include/openssl/opensslv.h
+CMakeFiles/Multi_Linux_Data_Transmission_System.dir/crypto/sha256.cpp.o: /usr/local/opt/openssl@1.1/include/openssl/sha.h
 
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/data_processing/buffer_file.cpp.o: ../data_processing/buffer_file.cpp
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/data_processing/buffer_file.cpp.o: ../data_processing/buffer_file.h
@@ -125,9 +129,11 @@ CMakeFiles/Multi_Linux_Data_Transmission_System.dir/receiver/receive_init.cpp.o:
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/receiver/receive_init.cpp.o: ../receiver/receive_init.h
 
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/sender/sender.cpp.o: ../include/global.h
+CMakeFiles/Multi_Linux_Data_Transmission_System.dir/sender/sender.cpp.o: ../main.h
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/sender/sender.cpp.o: ../sender/sender.cpp
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/sender/sender.cpp.o: ../sender/sender.h
 
+CMakeFiles/Multi_Linux_Data_Transmission_System.dir/sender/sender_init.cpp.o: ../include/global.h
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/sender/sender_init.cpp.o: ../sender/sender_init.cpp
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/sender/sender_init.cpp.o: ../sender/sender_init.h
 

@@ -5,6 +5,7 @@ int to_hosts;
 
 int main(int argc, char *argv[]) {
     init();
+    test();
     if (argc == 1) {
         puts("plz using para");
         return 1;

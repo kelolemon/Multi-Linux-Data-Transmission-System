@@ -9,6 +9,10 @@ CMakeFiles/Multi_Linux_Data_Transmission_System.dir/crypto/sha256.cpp.o
  /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/crypto/sha256.cpp
  /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/crypto/sha256.h
  /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/include/global.h
+ /usr/local/opt/openssl@1.1/include/openssl/e_os2.h
+ /usr/local/opt/openssl@1.1/include/openssl/opensslconf.h
+ /usr/local/opt/openssl@1.1/include/openssl/opensslv.h
+ /usr/local/opt/openssl@1.1/include/openssl/sha.h
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/data_processing/buffer_file.cpp.o
  /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/data_processing/buffer_file.cpp
  /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/data_processing/buffer_file.h
@@ -126,8 +130,10 @@ CMakeFiles/Multi_Linux_Data_Transmission_System.dir/receiver/receive_init.cpp.o
  /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/receiver/receive_init.h
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/sender/sender.cpp.o
  /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/include/global.h
+ /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/main.h
  /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/sender/sender.cpp
  /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/sender/sender.h
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/sender/sender_init.cpp.o
+ /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/include/global.h
  /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/sender/sender_init.cpp
  /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/sender/sender_init.h

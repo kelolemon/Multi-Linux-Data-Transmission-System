@@ -11,5 +11,5 @@
 using namespace std;
 extern bool load_file(char* filename);
 extern map<int, char[BIT_SIZE + 1]>load_file_data;
-
+std::string encrypt_sha256(const std::string& message);
 #endif //MULTI_LINUX_DATA_TRANSMISSION_SYSTEM_TEST_H

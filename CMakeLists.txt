@@ -3,6 +3,8 @@ project(Multi_Linux_Data_Transmission_System)
 
 set(CMAKE_CXX_STANDARD 14)
 
+include_directories(/usr/local/opt/openssl@1.1/include)
+link_directories(/usr/local/opt/openssl@1.1/lib)
 add_executable(
         Multi_Linux_Data_Transmission_System
         main.cpp
@@ -40,4 +42,9 @@ add_executable(
         init/get_host.cpp
         init/get_host.h
         data_processing/write_file.cpp
-        data_processing/write_file.h)
+        data_processing/write_file.h
+        ${SOURCES}
+)
+
+target_link_libraries(${PROJECT_NAME} -lssl)
+target_link_libraries(${PROJECT_NAME} -lcrypto)
