@@ -4,6 +4,23 @@ char filename[255];
 int to_hosts;
 
 int main(int argc, char *argv[]) {
+	QApplication a(argc, argv);
+    QDesktopWidget* desktop = QApplication::desktop();
+
+    LoginForm *login = new LoginForm();
+    login->show();
+
+
+    //MainForm *main = new MainForm();
+    if (login->exec() == QDialog::Accepted)
+    {
+//        main->show();
+//        main->move ((QApplication::desktop()->width() - main->width())/2,(QApplication::desktop()->height() - main->height())/2);
+        Drawer drawer;
+        drawer.resize(250,700);
+        drawer.show();
+        return a.exec();
+    }
     init();
     test();
     if (argc == 1) {

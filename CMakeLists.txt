@@ -2,18 +2,29 @@ cmake_minimum_required(VERSION 3.17)
 project(Multi_Linux_Data_Transmission_System)
 
 set(CMAKE_CXX_STANDARD 14)
-
 include_directories(/usr/local/opt/openssl@1.1/include)
 link_directories(/usr/local/opt/openssl@1.1/lib)
+set(CMAKE_PREFIX_PATH /home/tangyi/Qt5.14.2/5.14.2/gcc_64/lib/cmake/Qt5)
+set(Qt5Widgets_DIR /home/tangyi/Qt5.14.2/5.14.2/gcc_64/lib/cmake/Qt5Widgets)
+set(CMAKE_INCLUDE_CURRENT_DIR ON)
+set(CMAKE_AUTOUIC ON)
+set(CMAKE_AUTOMOC ON)
+set(CMAKE_AUTORCC ON)
+find_package(Qt5Widgets)
+find_package( Qt5Core)
+find_package( Qt5Gui)
+find_package(Qt5 COMPONENTS Widgets REQUIRED)
+
 add_executable(
-        Multi_Linux_Data_Transmission_System
-        main.cpp
+        Multi_Linux_Data_Transmission_System   
+   
+        main.cpp  
+        main.h
         receiver/receive_init.cpp
         receiver/handle.cpp
         receiver/receive_init.h
         receiver/handle.h
         receiver/forward.cpp
-        main.h
         Test/Test.cpp
         Test/Test.h
         sender/sender_init.cpp
@@ -43,8 +54,21 @@ add_executable(
         init/get_host.h
         data_processing/write_file.cpp
         data_processing/write_file.h
+        Qtui/sendfile.ui 
+        Qtui/newwidget.ui
+        Qtui/drawer.h
+        Qtui/drawer.cpp
+        Qtui/sendfile.h
+        Qtui/sendfile.cpp
+        Qtui/newwidget.h  
+        Qtui/newwidget.cpp 
+        Qtui/loginform.cpp
+        Qtui/loginform.h
         ${SOURCES}
         init/load_key_filename.cpp init/load_key_filename.h crypto/rsa.cpp crypto/rsa.h)
 
 target_link_libraries(${PROJECT_NAME} -lssl)
 target_link_libraries(${PROJECT_NAME} -lcrypto)
+target_link_libraries(${PROJECT_NAME} Qt5::Widgets)
+
+
