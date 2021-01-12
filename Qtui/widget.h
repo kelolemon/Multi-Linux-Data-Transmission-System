@@ -3,10 +3,11 @@
 
 #include <QWidget>
 #include <QTextCharFormat>
+#include "sendfile.h"
+
 QT_BEGIN_NAMESPACE
 namespace Ui { class Widget; }
 QT_END_NAMESPACE
-
 class Widget : public QWidget
 {
     Q_OBJECT
@@ -25,7 +26,17 @@ public:
     Widget(QWidget *parent, QString usrname);
     ~Widget();
 
-private:
+
+
+public:
     Ui::Widget *ui;
+    sendfile *srv;
+    bool box1_Checked();
+    bool box2_Checked();
+    bool box3_Checked();
+    bool box4_Checked();
+
+private slots:
+    void on_sendTBtn_clicked();
 };
 #endif // WIDGET_H

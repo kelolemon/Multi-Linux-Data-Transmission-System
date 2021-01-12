@@ -3,7 +3,9 @@
 
 #include <QDialog>
 #include <QTime>
-
+extern bool load_file(char *filename);
+extern void sender_init(char *addr, char *port, int to_host, bool is_broadcast);
+extern std::pair<std::string, std::string> get_host(int host_id) ;
 class QFile;
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -25,6 +27,7 @@ private:
     Ui::sendfile *ui;
 
     QString fileName; //文件名
+    QString theFileName; //real file name
     QFile *locFile; //待发送的文件
 
     qint64 totalBytes;      //总共需要发送的字节数
@@ -36,6 +39,8 @@ private:
 private slots:
     void sndMsg();
     void updProgress(qint64 numBytes); //更新进度条
+    void on_sOpenBtn_clicked(); // open button
+    void on_sSendBtn_clicked(); // send button
 };
 
 #endif // SENDFILE_H

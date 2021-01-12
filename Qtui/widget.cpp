@@ -4,12 +4,16 @@
 #include <QScrollBar>
 #include <QDateTime>
 #include <QProcess>
+#include <iostream>
 
 Widget::Widget(QWidget *parent,QString usrname)
     : QWidget(parent)
     , ui(new Ui::Widget)
 {
     ui->setupUi(this);
+
+    srv = new sendfile(this);
+    //connect(srv, SIGNAL(sndFileName(QString)), this, SLOT(getFileName(QString)));
 }
 
 Widget::~Widget()
@@ -51,23 +55,23 @@ void Widget::rcvMsg()    //接收信息
 
 
 void Widget::usrEnter(QString usrname, QString ipaddr){
-    bool isEmpty = ui->usrTblWidget->findItems(usrname, Qt::MatchExactly).isEmpty();
-    //判断该用户是否已经加入用户列表中
-    if (isEmpty) {
-        QTableWidgetItem *usr = new QTableWidgetItem(usrname);
-        QTableWidgetItem *ip = new QTableWidgetItem(ipaddr);
-
-        ui->usrTblWidget->insertRow(0);
-        ui->usrTblWidget->setItem(0,0,usr);
-        ui->usrTblWidget->setItem(0,1,ip);
-        ui->msgBrowser->setTextColor(Qt::gray);
-        ui->msgBrowser->setCurrentFont(QFont("Times New Roman",10));
-        ui->msgBrowser->append(tr("%1 在线！").arg(usrname));
-        ui->usrNumLbl->setText(tr("在线主机数：%1").arg(ui->usrTblWidget->rowCount()));
-
-        //告诉其他主机这个新用户上线
-//        sndMsg(UsrEnter);
-    }
+//    bool isEmpty = ui->usrTblWidget->findItems(usrname, Qt::MatchExactly).isEmpty();
+//    //判断该用户是否已经加入用户列表中
+//    if (isEmpty) {
+//        QTableWidgetItem *usr = new QTableWidgetItem(usrname);
+//        QTableWidgetItem *ip = new QTableWidgetItem(ipaddr);
+//
+//        ui->usrTblWidget->insertRow(0);
+//        ui->usrTblWidget->setItem(0,0,usr);
+//        ui->usrTblWidget->setItem(0,1,ip);
+//        ui->msgBrowser->setTextColor(Qt::gray);
+//        ui->msgBrowser->setCurrentFont(QFont("Times New Roman",10));
+//        ui->msgBrowser->append(tr("%1 在线！").arg(usrname));
+//        ui->usrNumLbl->setText(tr("在线主机数：%1").arg(ui->usrTblWidget->rowCount()));
+//
+//        //告诉其他主机这个新用户上线
+////        sndMsg(UsrEnter);
+//    }
 }
 
 void Widget::usrLeft(QString usrname, QString time){
@@ -76,7 +80,37 @@ void Widget::usrLeft(QString usrname, QString time){
     ui->msgBrowser->setTextColor(Qt::gray);
     ui->msgBrowser->setCurrentFont(QFont("Times New Roman", 10));
     ui->msgBrowser->append(tr("%1 于 %2 离开！").arg(usrname).arg(time));
-    ui->usrNumLbl->setText(tr("在线主机数：%1").arg(ui->usrTblWidget->rowCount()));
+}
+void Widget::on_sendTBtn_clicked()
+{
+    srv->show();
+    srv->initSrv();
+
+//    srv->initSrv();
+}
+bool Widget::box1_Checked(){
+    if(ui->checkBox_1->isChecked())
+        return true;
+    else
+        return false;
+}
+bool Widget::box2_Checked(){
+    if(ui->checkBox_2->isChecked())
+        return true;
+    else
+        return false;
+}
+bool Widget::box3_Checked(){
+    if(ui->checkBox_3->isChecked())
+        return true;
+    else
+        return false;
+}
+bool Widget::box4_Checked(){
+    if(ui->checkBox_4->isChecked())
+        return true;
+    else
+        return false;
 }
 
 //void Widget::getIP(){}

@@ -4,7 +4,7 @@
 #include <QToolBox>
 #include <QToolButton>
 //#include "widget.h"
-#include "newwidget.h"
+#include "widget.h"
 
 class Drawer : public QToolBox
 {
@@ -21,10 +21,10 @@ private:
     QToolButton *toolBtn2;
     QToolButton *toolBtn3;
     QToolButton *toolBtn4;
-    NewWidget *chatWidget1;
-    NewWidget *chatWidget2;
-    NewWidget *chatWidget3;
-    NewWidget *chatWidget4;
+    Widget *chatWidget1;
+    Widget *chatWidget2;
+    Widget *chatWidget3;
+    Widget *chatWidget4;
 };
 
 #endif // DRAWER_H

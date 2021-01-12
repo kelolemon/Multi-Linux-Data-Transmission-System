@@ -54,35 +54,34 @@ Drawer::Drawer(QWidget *parent, Qt::WindowFlags f)
     layout->addWidget(toolBtn4);
     layout->addStretch();
 
-    //this->addItem((QWidget*)groupBox,tr("主机列表"));
+    this->addItem((QWidget*)groupBox,tr("主机列表"));
 }
 
 
 void Drawer::showChatWidget1(){
-      chatWidget1 = new NewWidget(0, toolBtn1->text());
+      chatWidget1 = new Widget(0, toolBtn1->text());
       chatWidget1->setWindowTitle(toolBtn1->text());
       chatWidget1->setWindowIcon(toolBtn1->icon());
-      chatWidget1->resize(700,700);
       chatWidget1->show();
  
 }
 
 void Drawer::showChatWidget2(){
-    chatWidget2 = new NewWidget(0, toolBtn2->text());
+    chatWidget2 = new Widget(0, toolBtn2->text());
     chatWidget2->setWindowTitle(toolBtn2->text());
     chatWidget2->setWindowIcon(toolBtn2->icon());
     chatWidget2->show();
 }
 
 void Drawer::showChatWidget3(){
-    chatWidget3 = new NewWidget(0, toolBtn3->text());
+    chatWidget3 = new Widget(0, toolBtn3->text());
     chatWidget3->setWindowTitle(toolBtn3->text());
     chatWidget3->setWindowIcon(toolBtn3->icon());
     chatWidget3->show();
 }
 
 void Drawer::showChatWidget4(){
-    chatWidget4 = new NewWidget(0, toolBtn4->text());
+    chatWidget4 = new Widget(0, toolBtn4->text());
     chatWidget4->setWindowTitle(toolBtn4->text());
     chatWidget4->setWindowIcon(toolBtn4->icon());
     chatWidget4->show();

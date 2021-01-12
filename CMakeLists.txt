@@ -55,13 +55,13 @@ add_executable(
         data_processing/write_file.cpp
         data_processing/write_file.h
         Qtui/sendfile.ui 
-        Qtui/newwidget.ui
+        Qtui/widget.ui
+        Qtui/widget.cpp
+        Qtui/widget.h
         Qtui/drawer.h
         Qtui/drawer.cpp
         Qtui/sendfile.h
         Qtui/sendfile.cpp
-        Qtui/newwidget.h  
-        Qtui/newwidget.cpp 
         Qtui/loginform.cpp
         Qtui/loginform.h
         ${SOURCES}
