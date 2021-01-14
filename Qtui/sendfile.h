@@ -3,6 +3,8 @@
 
 #include <QDialog>
 #include <QTime>
+#include "process.h"
+
 extern bool load_file(char *filename);
 extern void sender_init(char *addr, char *port, int to_host, bool is_broadcast);
 extern std::pair<std::string, std::string> get_host(int host_id) ;

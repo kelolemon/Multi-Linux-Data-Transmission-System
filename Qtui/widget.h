@@ -18,14 +18,12 @@ protected:
     void sndMsg();  //发送信息
     void rcvMsg();  //接收信息
 
-    QString getIP();       //获取IP地址
-    QString getUsr();       //获取主机名
-    QString getMsg();       //获取传输信息
-
 public:
     Widget(QWidget *parent, QString usrname);
     ~Widget();
-
+    void printMsg(QString fname);
+    void printMsg2(QString fname);
+    QString getUsr();       //获取主机名
 
 
 public:
@@ -38,5 +36,8 @@ public:
 
 private slots:
     void on_sendTBtn_clicked();
+
+
+
 };
 #endif // WIDGET_H

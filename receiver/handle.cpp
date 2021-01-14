@@ -1,6 +1,7 @@
 //
 // Created by Kelo Deng on 2020/10/21.
 //
+
 # include "handle.h"
 
 void handle(int sender_socket) {
@@ -33,10 +34,9 @@ void handle(int sender_socket) {
         }
         return true;
     };
-
+    auto host_id = 0;
     for(;;){
         //read size
-
         puts("begin to read size");
 
         int l_size = 0;
@@ -67,6 +67,7 @@ void handle(int sender_socket) {
             break;
         }
 
+        host_id = unit_message.header.SourceId;
         //store in buffer
         puts(" prepare to sha 256 encrypt");
         /*
@@ -112,8 +113,15 @@ void handle(int sender_socket) {
     }
     //write to the file
     char filename[255];
-    strcpy(filename, "../data/receive_test_data_reborn.txt");
+    strcpy(filename, "../data/receive_test_data_ty_reborn.txt");
     write_file(filename);
+
+    host_id += 1;
+    char message[500];
+    sprintf(message, "收到主机%d发来的文件", host_id);
+    QString time = QDateTime::currentDateTime().toString("yyyy-MM-dd hh:mm:ss");
+    QMessageBox::about(nullptr, QString::fromLocal8Bit("收到文件"),time+'\n'+message);
+
 }
 
 /*

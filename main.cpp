@@ -4,17 +4,23 @@ char filename[255];
 int to_hosts;
 
 int main(int argc, char *argv[]) {
-    QApplication a(argc, argv);
-    Drawer drawer;
-    drawer.resize(250,700);
-    drawer.show();
-    return a.exec();
-
+    init();
+    int rt;
     if (fork() != 0) {
+        QApplication b(argc, argv);
+        auto res = get_host(my_host);
+        receive_init((char *)res.first.c_str(), (char *)res.second.c_str());
 
     } else {
-
+        QApplication a(argc, argv);
+        Drawer drawer;
+        drawer.resize(250,700);
+        drawer.show();
+        rt = QApplication::exec();
     }
+    return rt;
+
+
 //    LoginForm *login = new LoginForm();
 //    login->show();
 //

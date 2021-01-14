@@ -6,12 +6,13 @@
 #include <QProcess>
 #include <iostream>
 
+QString usrName;
 Widget::Widget(QWidget *parent,QString usrname)
     : QWidget(parent)
     , ui(new Ui::Widget)
 {
     ui->setupUi(this);
-
+    usrName = usrname;
     srv = new sendfile(this);
     //connect(srv, SIGNAL(sndFileName(QString)), this, SLOT(getFileName(QString)));
 }
@@ -19,6 +20,16 @@ Widget::Widget(QWidget *parent,QString usrname)
 Widget::~Widget()
 {
     delete ui;
+}
+
+void Widget::printMsg(QString fname)
+{
+    QString time = QDateTime::currentDateTime().toString("yyyy-MM-dd hh:mm:ss");
+    ui->msgBrowser->setTextColor(Qt::blue);
+    ui->msgBrowser->setCurrentFont(QFont("Times New Roman",12));
+    ui->msgBrowser->append("[ " +usrName+" ] "+ time);
+    ui->msgBrowser->setTextColor(Qt::black);
+    ui->msgBrowser->append(fname);
 }
 
 void Widget::sndMsg()   //发送信息
@@ -114,7 +125,7 @@ bool Widget::box4_Checked(){
 }
 
 //void Widget::getIP(){}
-//void Widget::getUsr(){}
+QString Widget::getUsr(){  return usrName;}
 //void Widget::getMsg(){}
 
 ////发送按钮的触发函数

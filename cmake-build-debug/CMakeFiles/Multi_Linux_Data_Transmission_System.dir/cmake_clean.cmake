@@ -5,6 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Multi_Linux_Data_Transmission_System_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Qtui/drawer.cpp.o"
   "CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Qtui/loginform.cpp.o"
+  "CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Qtui/process.cpp.o"
   "CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Qtui/sendfile.cpp.o"
   "CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Qtui/widget.cpp.o"
   "CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Test/Test.cpp.o"

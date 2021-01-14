@@ -24,6 +24,10 @@
 # include "../include/global.h"
 # include "../init/load_connection.h"
 # include "../init/load_hosts.h"
+
+#include "../Qtui/widget.h"
+#include <QMessageBox>
+
 extern std::map<int, char[BIT_SIZE + 1]>buffer_file_data;
 // extern std::vector<std::vector<int>> ACK_matrix;
 extern int to_hosts;

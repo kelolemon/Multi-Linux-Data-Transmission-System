@@ -5,41 +5,41 @@
 		<Option title="Multi_Linux_Data_Transmission_System"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\usr\local\opt\;CMake Files\..\..\..\..\..\usr\local\opt\qt\;CMake Files\..\..\..\..\..\usr\local\opt\qt\lib\;CMake Files\..\..\..\..\..\usr\local\opt\qt\lib\cmake\;CMake Files\..\..\..\..\..\usr\local\opt\qt\lib\cmake\Qt5Widgets\;CMake Files\..\..\..\..\..\usr\local\opt\qt\lib\cmake\Qt5Gui\;CMake Files\..\..\..\..\..\usr\local\opt\qt\lib\cmake\Qt5Core\;CMake Files\..\..\..\..\..\usr\local\opt\qt\lib\cmake\Qt5\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\Qt5.14.2\;CMake Files\..\..\Qt5.14.2\5.14.2\;CMake Files\..\..\Qt5.14.2\5.14.2\gcc_64\;CMake Files\..\..\Qt5.14.2\5.14.2\gcc_64\lib\;CMake Files\..\..\Qt5.14.2\5.14.2\gcc_64\lib\cmake\;CMake Files\..\..\Qt5.14.2\5.14.2\gcc_64\lib\cmake\Qt5Widgets\;CMake Files\..\..\Qt5.14.2\5.14.2\gcc_64\lib\cmake\Qt5Gui\;CMake Files\..\..\Qt5.14.2\5.14.2\gcc_64\lib\cmake\Qt5Core\;CMake Files\..\..\Qt5.14.2\5.14.2\gcc_64\lib\cmake\Qt5\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug"/>
+				<Option working_dir="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug"/>
+				<Option working_dir="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Multi_Linux_Data_Transmission_System">
-				<Option output="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/Multi_Linux_Data_Transmission_System" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug"/>
+				<Option output="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/cmake-build-debug/Multi_Linux_Data_Transmission_System" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -47,35 +47,33 @@
 					<Add option="-DQT_WIDGETS_LIB"/>
 					<Add option="-DQT_GUI_LIB"/>
 					<Add option="-DQT_CORE_LIB"/>
-					<Add directory="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug"/>
-					<Add directory="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System"/>
-					<Add directory="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/Multi_Linux_Data_Transmission_System_autogen/include"/>
+					<Add directory="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/cmake-build-debug"/>
+					<Add directory="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System"/>
+					<Add directory="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/cmake-build-debug/Multi_Linux_Data_Transmission_System_autogen/include"/>
 					<Add directory="/usr/local/opt/openssl@1.1/include"/>
-					<Add directory="/usr/local/opt/qt/lib/QtWidgets.framework"/>
-					<Add directory="/usr/local/opt/qt/lib/QtWidgets.framework/Headers"/>
-					<Add directory="/usr/local/opt/qt/lib/QtGui.framework"/>
-					<Add directory="/usr/local/opt/qt/lib/QtGui.framework/Headers"/>
-					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/OpenGL.framework/Headers"/>
-					<Add directory="/usr/local/opt/qt/lib/QtCore.framework"/>
-					<Add directory="/usr/local/opt/qt/lib/QtCore.framework/Headers"/>
-					<Add directory="/usr/local/opt/qt/./mkspecs/macx-clang"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/home/tangyi/Qt5.14.2/5.14.2/gcc_64/include"/>
+					<Add directory="/home/tangyi/Qt5.14.2/5.14.2/gcc_64/include/QtWidgets"/>
+					<Add directory="/home/tangyi/Qt5.14.2/5.14.2/gcc_64/include/QtGui"/>
+					<Add directory="/home/tangyi/Qt5.14.2/5.14.2/gcc_64/include/QtCore"/>
+					<Add directory="/home/tangyi/Qt5.14.2/5.14.2/gcc_64/./mkspecs/linux-g++"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 Multi_Linux_Data_Transmission_System"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 Multi_Linux_Data_Transmission_System"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Multi_Linux_Data_Transmission_System/fast">
-				<Option output="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/Multi_Linux_Data_Transmission_System" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug"/>
+				<Option output="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/cmake-build-debug/Multi_Linux_Data_Transmission_System" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -83,306 +81,361 @@
 					<Add option="-DQT_WIDGETS_LIB"/>
 					<Add option="-DQT_GUI_LIB"/>
 					<Add option="-DQT_CORE_LIB"/>
-					<Add directory="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug"/>
-					<Add directory="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System"/>
-					<Add directory="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/Multi_Linux_Data_Transmission_System_autogen/include"/>
+					<Add directory="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/cmake-build-debug"/>
+					<Add directory="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System"/>
+					<Add directory="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/cmake-build-debug/Multi_Linux_Data_Transmission_System_autogen/include"/>
 					<Add directory="/usr/local/opt/openssl@1.1/include"/>
-					<Add directory="/usr/local/opt/qt/lib/QtWidgets.framework"/>
-					<Add directory="/usr/local/opt/qt/lib/QtWidgets.framework/Headers"/>
-					<Add directory="/usr/local/opt/qt/lib/QtGui.framework"/>
-					<Add directory="/usr/local/opt/qt/lib/QtGui.framework/Headers"/>
-					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/OpenGL.framework/Headers"/>
-					<Add directory="/usr/local/opt/qt/lib/QtCore.framework"/>
-					<Add directory="/usr/local/opt/qt/lib/QtCore.framework/Headers"/>
-					<Add directory="/usr/local/opt/qt/./mkspecs/macx-clang"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/home/tangyi/Qt5.14.2/5.14.2/gcc_64/include"/>
+					<Add directory="/home/tangyi/Qt5.14.2/5.14.2/gcc_64/include/QtWidgets"/>
+					<Add directory="/home/tangyi/Qt5.14.2/5.14.2/gcc_64/include/QtGui"/>
+					<Add directory="/home/tangyi/Qt5.14.2/5.14.2/gcc_64/include/QtCore"/>
+					<Add directory="/home/tangyi/Qt5.14.2/5.14.2/gcc_64/./mkspecs/linux-g++"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 Multi_Linux_Data_Transmission_System/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 Multi_Linux_Data_Transmission_System/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Multi_Linux_Data_Transmission_System_autogen">
-				<Option working_dir="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug"/>
+				<Option working_dir="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 Multi_Linux_Data_Transmission_System_autogen"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 Multi_Linux_Data_Transmission_System_autogen"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/Qtui/drawer.cpp">
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/Qtui/drawer.cpp">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/Qtui/drawer.h">
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/Qtui/drawer.h">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/Qtui/loginform.cpp">
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/Qtui/loginform.cpp">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/Qtui/loginform.h">
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/Qtui/loginform.h">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/Qtui/sendfile.cpp">
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/Qtui/process.cpp">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/Qtui/sendfile.h">
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/Qtui/process.h">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/Qtui/sendfile.ui">
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/Qtui/process.ui">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/Qtui/widget.cpp">
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/Qtui/sendfile.cpp">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/Qtui/widget.h">
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/Qtui/sendfile.h">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/Qtui/widget.ui">
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/Qtui/sendfile.ui">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/Test/Test.cpp">
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/Qtui/widget.cpp">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/Test/Test.h">
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/Qtui/widget.h">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/Multi_Linux_Data_Transmission_System_autogen/mocs_compilation.cpp">
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/Qtui/widget.ui">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/crypto/rsa.cpp">
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/Test/Test.cpp">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/crypto/rsa.h">
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/Test/Test.h">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/crypto/sha256.cpp">
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/cmake-build-debug/Multi_Linux_Data_Transmission_System_autogen/mocs_compilation.cpp">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/crypto/sha256.h">
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/crypto/rsa.cpp">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/data_processing/buffer_file.cpp">
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/crypto/rsa.h">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/data_processing/buffer_file.h">
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/crypto/sha256.cpp">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/data_processing/load_file.cpp">
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/crypto/sha256.h">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/data_processing/load_file.h">
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/data_processing/buffer_file.cpp">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/data_processing/write_file.cpp">
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/data_processing/buffer_file.h">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/data_processing/write_file.h">
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/data_processing/load_file.cpp">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/include/global.h">
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/data_processing/load_file.h">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/init/config.cpp">
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/data_processing/write_file.cpp">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/init/get_host.cpp">
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/data_processing/write_file.h">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/init/get_host.h">
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/include/global.h">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/init/init.cpp">
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/init/config.cpp">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/init/init.h">
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/init/get_host.cpp">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/init/load_connection.cpp">
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/init/get_host.h">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/init/load_connection.h">
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/init/init.cpp">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/init/load_hosts.cpp">
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/init/init.h">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/init/load_hosts.h">
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/init/load_connection.cpp">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/init/load_key_filename.cpp">
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/init/load_connection.h">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/init/load_key_filename.h">
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/init/load_hosts.cpp">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/json_cpp/lib_json/json_reader.cpp">
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/init/load_hosts.h">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/json_cpp/lib_json/json_tool.h">
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/init/load_key_filename.cpp">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/json_cpp/lib_json/json_value.cpp">
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/init/load_key_filename.h">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/json_cpp/lib_json/json_valueiterator.inl">
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/json_cpp/lib_json/json_reader.cpp">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/json_cpp/lib_json/json_writer.cpp">
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/json_cpp/lib_json/json_tool.h">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/main.cpp">
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/json_cpp/lib_json/json_value.cpp">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/main.h">
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/json_cpp/lib_json/json_valueiterator.inl">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/receiver/forward.cpp">
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/json_cpp/lib_json/json_writer.cpp">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/receiver/handle.cpp">
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/main.cpp">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/receiver/handle.h">
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/main.h">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/receiver/receive_init.cpp">
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/receiver/forward.cpp">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/receiver/receive_init.h">
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/receiver/handle.cpp">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/sender/sender.cpp">
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/receiver/handle.h">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/sender/sender.h">
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/receiver/receive_init.cpp">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/sender/sender_init.cpp">
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/receiver/receive_init.h">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/sender/sender_init.h">
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/sender/sender.cpp">
 			<Option target="Multi_Linux_Data_Transmission_System"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/CMakeLists.txt">
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/sender/sender.h">
+			<Option target="Multi_Linux_Data_Transmission_System"/>
+		</Unit>
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/sender/sender_init.cpp">
+			<Option target="Multi_Linux_Data_Transmission_System"/>
+		</Unit>
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/sender/sender_init.h">
+			<Option target="Multi_Linux_Data_Transmission_System"/>
+		</Unit>
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/../../../../../usr/local/opt/qt/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opt\qt\lib\cmake\Qt5Widgets\"/>
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/../../Qt5.14.2/5.14.2/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.2\5.14.2\gcc_64\lib\cmake\Qt5Widgets\"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/../../../../../usr/local/opt/qt/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opt\qt\lib\cmake\Qt5Widgets\"/>
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/../../Qt5.14.2/5.14.2/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.2\5.14.2\gcc_64\lib\cmake\Qt5Widgets\"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/../../../../../usr/local/opt/qt/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opt\qt\lib\cmake\Qt5Widgets\"/>
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/../../Qt5.14.2/5.14.2/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.2\5.14.2\gcc_64\lib\cmake\Qt5Widgets\"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/../../../../../usr/local/opt/qt/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opt\qt\lib\cmake\Qt5Widgets\"/>
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/../../Qt5.14.2/5.14.2/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.2\5.14.2\gcc_64\lib\cmake\Qt5Widgets\"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/../../../../../usr/local/opt/qt/lib/cmake/Qt5Widgets/Qt5Widgets_QMacStylePlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opt\qt\lib\cmake\Qt5Widgets\"/>
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/../../Qt5.14.2/5.14.2/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.2\5.14.2\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/../../../../../usr/local/opt/qt/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opt\qt\lib\cmake\Qt5Gui\"/>
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/../../Qt5.14.2/5.14.2/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.2\5.14.2\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/../../../../../usr/local/opt/qt/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opt\qt\lib\cmake\Qt5Gui\"/>
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/../../Qt5.14.2/5.14.2/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.2\5.14.2\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/../../../../../usr/local/opt/qt/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opt\qt\lib\cmake\Qt5Gui\"/>
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/../../Qt5.14.2/5.14.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.2\5.14.2\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/../../../../../usr/local/opt/qt/lib/cmake/Qt5Gui/Qt5Gui_QCocoaIntegrationPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opt\qt\lib\cmake\Qt5Gui\"/>
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/../../Qt5.14.2/5.14.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.2\5.14.2\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/../../../../../usr/local/opt/qt/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opt\qt\lib\cmake\Qt5Gui\"/>
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/../../Qt5.14.2/5.14.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.2\5.14.2\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/../../../../../usr/local/opt/qt/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opt\qt\lib\cmake\Qt5Gui\"/>
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/../../Qt5.14.2/5.14.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.2\5.14.2\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/../../../../../usr/local/opt/qt/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opt\qt\lib\cmake\Qt5Gui\"/>
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/../../Qt5.14.2/5.14.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.2\5.14.2\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/../../../../../usr/local/opt/qt/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opt\qt\lib\cmake\Qt5Gui\"/>
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/../../Qt5.14.2/5.14.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.2\5.14.2\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/../../../../../usr/local/opt/qt/lib/cmake/Qt5Gui/Qt5Gui_QMacHeifPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opt\qt\lib\cmake\Qt5Gui\"/>
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/../../Qt5.14.2/5.14.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.2\5.14.2\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/../../../../../usr/local/opt/qt/lib/cmake/Qt5Gui/Qt5Gui_QMacJp2Plugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opt\qt\lib\cmake\Qt5Gui\"/>
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/../../Qt5.14.2/5.14.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.2\5.14.2\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/../../../../../usr/local/opt/qt/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opt\qt\lib\cmake\Qt5Gui\"/>
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/../../Qt5.14.2/5.14.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.2\5.14.2\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/../../../../../usr/local/opt/qt/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opt\qt\lib\cmake\Qt5Gui\"/>
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/../../Qt5.14.2/5.14.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.2\5.14.2\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/../../../../../usr/local/opt/qt/lib/cmake/Qt5Gui/Qt5Gui_QPdfPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opt\qt\lib\cmake\Qt5Gui\"/>
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/../../Qt5.14.2/5.14.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QGtk3ThemePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.2\5.14.2\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/../../../../../usr/local/opt/qt/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opt\qt\lib\cmake\Qt5Gui\"/>
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/../../Qt5.14.2/5.14.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.2\5.14.2\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/../../../../../usr/local/opt/qt/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opt\qt\lib\cmake\Qt5Gui\"/>
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/../../Qt5.14.2/5.14.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.2\5.14.2\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/../../../../../usr/local/opt/qt/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opt\qt\lib\cmake\Qt5Gui\"/>
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/../../Qt5.14.2/5.14.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.2\5.14.2\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/../../../../../usr/local/opt/qt/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opt\qt\lib\cmake\Qt5Gui\"/>
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/../../Qt5.14.2/5.14.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.2\5.14.2\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/../../../../../usr/local/opt/qt/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opt\qt\lib\cmake\Qt5Gui\"/>
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/../../Qt5.14.2/5.14.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.2\5.14.2\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/../../../../../usr/local/opt/qt/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opt\qt\lib\cmake\Qt5Gui\"/>
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/../../Qt5.14.2/5.14.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.2\5.14.2\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/../../../../../usr/local/opt/qt/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opt\qt\lib\cmake\Qt5Gui\"/>
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/../../Qt5.14.2/5.14.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.2\5.14.2\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/../../../../../usr/local/opt/qt/lib/cmake/Qt5Gui/Qt5Gui_QWebGLIntegrationPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opt\qt\lib\cmake\Qt5Gui\"/>
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/../../Qt5.14.2/5.14.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.2\5.14.2\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/../../../../../usr/local/opt/qt/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opt\qt\lib\cmake\Qt5Gui\"/>
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/../../Qt5.14.2/5.14.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.2\5.14.2\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/../../../../../usr/local/opt/qt/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opt\qt\lib\cmake\Qt5Gui\"/>
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/../../Qt5.14.2/5.14.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.2\5.14.2\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/../../../../../usr/local/opt/qt/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opt\qt\lib\cmake\Qt5Core\"/>
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/../../Qt5.14.2/5.14.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.2\5.14.2\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/../../../../../usr/local/opt/qt/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opt\qt\lib\cmake\Qt5Core\"/>
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/../../Qt5.14.2/5.14.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.2\5.14.2\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/../../../../../usr/local/opt/qt/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opt\qt\lib\cmake\Qt5Core\"/>
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/../../Qt5.14.2/5.14.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.2\5.14.2\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/../../../../../usr/local/opt/qt/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opt\qt\lib\cmake\Qt5Core\"/>
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/../../Qt5.14.2/5.14.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.2\5.14.2\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/../../../../../usr/local/opt/qt/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opt\qt\lib\cmake\Qt5Core\"/>
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/../../Qt5.14.2/5.14.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.2\5.14.2\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/../../../../../usr/local/opt/qt/lib/cmake/Qt5/Qt5Config.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opt\qt\lib\cmake\Qt5\"/>
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/../../Qt5.14.2/5.14.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWaylandEglPlatformIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.2\5.14.2\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/../../../../../usr/local/opt/qt/lib/cmake/Qt5/Qt5ConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opt\qt\lib\cmake\Qt5\"/>
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/../../Qt5.14.2/5.14.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWaylandIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.2\5.14.2\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/../../../../../usr/local/opt/qt/lib/cmake/Qt5/Qt5ModuleLocation.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opt\qt\lib\cmake\Qt5\"/>
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/../../Qt5.14.2/5.14.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWaylandXCompositeEglPlatformIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.2\5.14.2\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/../../Qt5.14.2/5.14.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWaylandXCompositeGlxPlatformIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.2\5.14.2\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/../../Qt5.14.2/5.14.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.2\5.14.2\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/../../Qt5.14.2/5.14.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWebGLIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.2\5.14.2\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/../../Qt5.14.2/5.14.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.2\5.14.2\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/../../Qt5.14.2/5.14.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.2\5.14.2\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/../../Qt5.14.2/5.14.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.2\5.14.2\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/../../Qt5.14.2/5.14.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.2\5.14.2\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/../../Qt5.14.2/5.14.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.2\5.14.2\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/../../Qt5.14.2/5.14.2/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.2\5.14.2\gcc_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/../../Qt5.14.2/5.14.2/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.2\5.14.2\gcc_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/../../Qt5.14.2/5.14.2/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.2\5.14.2\gcc_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/../../Qt5.14.2/5.14.2/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.2\5.14.2\gcc_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/../../Qt5.14.2/5.14.2/gcc_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.2\5.14.2\gcc_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/../../Qt5.14.2/5.14.2/gcc_64/lib/cmake/Qt5/Qt5Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.2\5.14.2\gcc_64\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/../../Qt5.14.2/5.14.2/gcc_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.2\5.14.2\gcc_64\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/../../Qt5.14.2/5.14.2/gcc_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.2\5.14.2\gcc_64\lib\cmake\Qt5\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

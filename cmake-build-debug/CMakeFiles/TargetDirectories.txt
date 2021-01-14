@@ -1,4 +1,4 @@
-/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/CMakeFiles/Multi_Linux_Data_Transmission_System.dir
-/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/CMakeFiles/Multi_Linux_Data_Transmission_System_autogen.dir
+/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/cmake-build-debug/CMakeFiles/Multi_Linux_Data_Transmission_System.dir
+/home/tangyi/Desktop/Multi-Linux-Data-Transmission-System/cmake-build-debug/CMakeFiles/Multi_Linux_Data_Transmission_System_autogen.dir

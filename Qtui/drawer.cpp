@@ -10,7 +10,8 @@ Drawer::Drawer(QWidget *parent, Qt::WindowFlags f)
     :QToolBox(parent,f)
 {
     setWindowTitle(tr("File Transport"));
-    setWindowIcon(QPixmap(":/images/images/FileTrans.png"));
+    setWindowIcon(QPixmap(":"
+                          "images/FileTrans.png"));
 
     toolBtn1 = new QToolButton;
     toolBtn1->setText(tr("主机1"));

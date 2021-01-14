@@ -64,6 +64,9 @@ add_executable(
         Qtui/sendfile.cpp
         Qtui/loginform.cpp
         Qtui/loginform.h
+        Qtui/process.cpp
+        Qtui/process.h
+        Qtui/process.ui
         ${SOURCES}
         init/load_key_filename.cpp init/load_key_filename.h crypto/rsa.cpp crypto/rsa.h)
 
