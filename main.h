@@ -6,6 +6,10 @@
 #define MULTI_LINUX_DATA_TRANSMISSION_SYSTEM_MAIN_H
 # include <iostream>
 # include <cstring>
+# include "./Qtui/loginform.h"
+# include <QApplication>
+# include <QDesktopWidget>
+# include "./Qtui/drawer.h"
 extern void init();
 extern void test_tcp(int argc, char *argv[]);
 extern void test();

@@ -230,6 +230,18 @@ Multi_Linux_Data_Transmission_System_SOURCE_DIR:STATIC=/Users/kelo/kelo/cpp/Mult
 //Path to a program.
 ProcessorCount_cmd_sysctl:FILEPATH=/usr/sbin/sysctl
 
+//The directory containing a CMake configuration file for Qt5Core.
+Qt5Core_DIR:PATH=/usr/local/opt/qt/lib/cmake/Qt5Core
+
+//The directory containing a CMake configuration file for Qt5Gui.
+Qt5Gui_DIR:PATH=/usr/local/opt/qt/lib/cmake/Qt5Gui
+
+//The directory containing a CMake configuration file for Qt5Widgets.
+Qt5Widgets_DIR:PATH=/usr/local/opt/qt/lib/cmake/Qt5Widgets
+
+//The directory containing a CMake configuration file for Qt5.
+Qt5_DIR:PATH=/usr/local/opt/qt/lib/cmake/Qt5
+
 
 ########################
 # INTERNAL cache entries

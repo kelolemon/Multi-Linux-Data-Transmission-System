@@ -143,6 +143,154 @@ Multi_Linux_Data_Transmission_System/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build
 .PHONY : Multi_Linux_Data_Transmission_System/fast
 
+#=============================================================================
+# Target rules for targets named Multi_Linux_Data_Transmission_System_autogen
+
+# Build rule for target.
+Multi_Linux_Data_Transmission_System_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Multi_Linux_Data_Transmission_System_autogen
+.PHONY : Multi_Linux_Data_Transmission_System_autogen
+
+# fast build rule for target.
+Multi_Linux_Data_Transmission_System_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System_autogen.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System_autogen.dir/build
+.PHONY : Multi_Linux_Data_Transmission_System_autogen/fast
+
+Multi_Linux_Data_Transmission_System_autogen/mocs_compilation.o: Multi_Linux_Data_Transmission_System_autogen/mocs_compilation.cpp.o
+
+.PHONY : Multi_Linux_Data_Transmission_System_autogen/mocs_compilation.o
+
+# target to build an object file
+Multi_Linux_Data_Transmission_System_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Multi_Linux_Data_Transmission_System_autogen/mocs_compilation.cpp.o
+.PHONY : Multi_Linux_Data_Transmission_System_autogen/mocs_compilation.cpp.o
+
+Multi_Linux_Data_Transmission_System_autogen/mocs_compilation.i: Multi_Linux_Data_Transmission_System_autogen/mocs_compilation.cpp.i
+
+.PHONY : Multi_Linux_Data_Transmission_System_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+Multi_Linux_Data_Transmission_System_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Multi_Linux_Data_Transmission_System_autogen/mocs_compilation.cpp.i
+.PHONY : Multi_Linux_Data_Transmission_System_autogen/mocs_compilation.cpp.i
+
+Multi_Linux_Data_Transmission_System_autogen/mocs_compilation.s: Multi_Linux_Data_Transmission_System_autogen/mocs_compilation.cpp.s
+
+.PHONY : Multi_Linux_Data_Transmission_System_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+Multi_Linux_Data_Transmission_System_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Multi_Linux_Data_Transmission_System_autogen/mocs_compilation.cpp.s
+.PHONY : Multi_Linux_Data_Transmission_System_autogen/mocs_compilation.cpp.s
+
+Qtui/drawer.o: Qtui/drawer.cpp.o
+
+.PHONY : Qtui/drawer.o
+
+# target to build an object file
+Qtui/drawer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Qtui/drawer.cpp.o
+.PHONY : Qtui/drawer.cpp.o
+
+Qtui/drawer.i: Qtui/drawer.cpp.i
+
+.PHONY : Qtui/drawer.i
+
+# target to preprocess a source file
+Qtui/drawer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Qtui/drawer.cpp.i
+.PHONY : Qtui/drawer.cpp.i
+
+Qtui/drawer.s: Qtui/drawer.cpp.s
+
+.PHONY : Qtui/drawer.s
+
+# target to generate assembly for a file
+Qtui/drawer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Qtui/drawer.cpp.s
+.PHONY : Qtui/drawer.cpp.s
+
+Qtui/loginform.o: Qtui/loginform.cpp.o
+
+.PHONY : Qtui/loginform.o
+
+# target to build an object file
+Qtui/loginform.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Qtui/loginform.cpp.o
+.PHONY : Qtui/loginform.cpp.o
+
+Qtui/loginform.i: Qtui/loginform.cpp.i
+
+.PHONY : Qtui/loginform.i
+
+# target to preprocess a source file
+Qtui/loginform.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Qtui/loginform.cpp.i
+.PHONY : Qtui/loginform.cpp.i
+
+Qtui/loginform.s: Qtui/loginform.cpp.s
+
+.PHONY : Qtui/loginform.s
+
+# target to generate assembly for a file
+Qtui/loginform.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Qtui/loginform.cpp.s
+.PHONY : Qtui/loginform.cpp.s
+
+Qtui/sendfile.o: Qtui/sendfile.cpp.o
+
+.PHONY : Qtui/sendfile.o
+
+# target to build an object file
+Qtui/sendfile.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Qtui/sendfile.cpp.o
+.PHONY : Qtui/sendfile.cpp.o
+
+Qtui/sendfile.i: Qtui/sendfile.cpp.i
+
+.PHONY : Qtui/sendfile.i
+
+# target to preprocess a source file
+Qtui/sendfile.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Qtui/sendfile.cpp.i
+.PHONY : Qtui/sendfile.cpp.i
+
+Qtui/sendfile.s: Qtui/sendfile.cpp.s
+
+.PHONY : Qtui/sendfile.s
+
+# target to generate assembly for a file
+Qtui/sendfile.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Qtui/sendfile.cpp.s
+.PHONY : Qtui/sendfile.cpp.s
+
+Qtui/widget.o: Qtui/widget.cpp.o
+
+.PHONY : Qtui/widget.o
+
+# target to build an object file
+Qtui/widget.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Qtui/widget.cpp.o
+.PHONY : Qtui/widget.cpp.o
+
+Qtui/widget.i: Qtui/widget.cpp.i
+
+.PHONY : Qtui/widget.i
+
+# target to preprocess a source file
+Qtui/widget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Qtui/widget.cpp.i
+.PHONY : Qtui/widget.cpp.i
+
+Qtui/widget.s: Qtui/widget.cpp.s
+
+.PHONY : Qtui/widget.s
+
+# target to generate assembly for a file
+Qtui/widget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Qtui/widget.cpp.s
+.PHONY : Qtui/widget.cpp.s
+
 Test/Test.o: Test/Test.cpp.o
 
 .PHONY : Test/Test.o
@@ -718,7 +866,23 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... Multi_Linux_Data_Transmission_System_autogen"
 	@echo "... Multi_Linux_Data_Transmission_System"
+	@echo "... Multi_Linux_Data_Transmission_System_autogen/mocs_compilation.o"
+	@echo "... Multi_Linux_Data_Transmission_System_autogen/mocs_compilation.i"
+	@echo "... Multi_Linux_Data_Transmission_System_autogen/mocs_compilation.s"
+	@echo "... Qtui/drawer.o"
+	@echo "... Qtui/drawer.i"
+	@echo "... Qtui/drawer.s"
+	@echo "... Qtui/loginform.o"
+	@echo "... Qtui/loginform.i"
+	@echo "... Qtui/loginform.s"
+	@echo "... Qtui/sendfile.o"
+	@echo "... Qtui/sendfile.i"
+	@echo "... Qtui/sendfile.s"
+	@echo "... Qtui/widget.o"
+	@echo "... Qtui/widget.i"
+	@echo "... Qtui/widget.s"
 	@echo "... Test/Test.o"
 	@echo "... Test/Test.i"
 	@echo "... Test/Test.s"

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>NewWidget</class>
+ <widget class="QWidget" name="NewWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>446</width>
+    <height>283</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+<!--  <widget class="QTextEdit" name="msgTxtEdit">-->
+<!--   <property name="geometry">-->
+<!--    <rect>-->
+<!--     <x>10</x>-->
+<!--     <y>440</y>-->
+<!--     <width>561</width>-->
+<!--     <height>141</height>-->
+<!--    </rect>-->
+<!--   </property>-->
+<!--  </widget>-->
+<!--  <widget class="QPushButton" name="sendBtn">-->
+<!--   <property name="geometry">-->
+<!--    <rect>-->
+<!--     <x>590</x>-->
+<!--     <y>540</y>-->
+<!--     <width>81</width>-->
+<!--     <height>41</height>-->
+<!--    </rect>-->
+<!--   </property>-->
+<!--   <property name="text">-->
+<!--    <string>发送</string>-->
+<!--   </property>-->
+<!--  </widget>-->
+  <widget class="QTableWidget" name="usrTblWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>311</width>
+     <height>261</height>
+    </rect>
+   </property>
+   <row>
+    <property name="text">
+     <string>1</string>
+    </property>
+   </row>
+   <column>
+    <property name="text">
+     <string>源主机ID</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>源主机IP</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>接收包大小</string>
+    </property>
+   </column>
+  </widget>
+<!--  <widget class="QPushButton" name="exitBtn">-->
+<!--   <property name="geometry">-->
+<!--    <rect>-->
+<!--     <x>700</x>-->
+<!--     <y>540</y>-->
+<!--     <width>81</width>-->
+<!--     <height>41</height>-->
+<!--    </rect>-->
+<!--   </property>-->
+<!--   <property name="text">-->
+<!--    <string>退出</string>-->
+<!--   </property>-->
+<!--  </widget>-->
+<!--  <widget class="QPushButton" name="pushButton">-->
+<!--   <property name="geometry">-->
+<!--    <rect>-->
+<!--     <x>590</x>-->
+<!--     <y>450</y>-->
+<!--     <width>91</width>-->
+<!--     <height>41</height>-->
+<!--    </rect>-->
+<!--   </property>-->
+<!--   <property name="text">-->
+<!--    <string>选择文件</string>-->
+<!--   </property>-->
+<!--  </widget>-->
+<!--  <widget class="QLabel" name="usrNumLbl">-->
+<!--   <property name="geometry">-->
+<!--    <rect>-->
+<!--     <x>590</x>-->
+<!--     <y>420</y>-->
+<!--     <width>141</width>-->
+<!--     <height>16</height>-->
+<!--    </rect>-->
+<!--   </property>-->
+<!--   <property name="text">-->
+<!--    <string>在线主机数：0</string>-->
+<!--   </property>-->
+<!--  </widget>-->
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

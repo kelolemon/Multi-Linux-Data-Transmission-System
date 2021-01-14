@@ -77,9 +77,22 @@ include CMakeFiles/Multi_Linux_Data_Transmission_System.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Multi_Linux_Data_Transmission_System.dir/flags.make
 
+CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Multi_Linux_Data_Transmission_System_autogen/mocs_compilation.cpp.o: CMakeFiles/Multi_Linux_Data_Transmission_System.dir/flags.make
+CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Multi_Linux_Data_Transmission_System_autogen/mocs_compilation.cpp.o: Multi_Linux_Data_Transmission_System_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Multi_Linux_Data_Transmission_System_autogen/mocs_compilation.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Multi_Linux_Data_Transmission_System_autogen/mocs_compilation.cpp.o -c /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/Multi_Linux_Data_Transmission_System_autogen/mocs_compilation.cpp
+
+CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Multi_Linux_Data_Transmission_System_autogen/mocs_compilation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Multi_Linux_Data_Transmission_System_autogen/mocs_compilation.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/Multi_Linux_Data_Transmission_System_autogen/mocs_compilation.cpp > CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Multi_Linux_Data_Transmission_System_autogen/mocs_compilation.cpp.i
+
+CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Multi_Linux_Data_Transmission_System_autogen/mocs_compilation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Multi_Linux_Data_Transmission_System_autogen/mocs_compilation.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/Multi_Linux_Data_Transmission_System_autogen/mocs_compilation.cpp -o CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Multi_Linux_Data_Transmission_System_autogen/mocs_compilation.cpp.s
+
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/main.cpp.o: CMakeFiles/Multi_Linux_Data_Transmission_System.dir/flags.make
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Multi_Linux_Data_Transmission_System.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Multi_Linux_Data_Transmission_System.dir/main.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Multi_Linux_Data_Transmission_System.dir/main.cpp.o -c /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/main.cpp
 
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/main.cpp.i: cmake_force
@@ -92,7 +105,7 @@ CMakeFiles/Multi_Linux_Data_Transmission_System.dir/main.cpp.s: cmake_force
 
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/receiver/receive_init.cpp.o: CMakeFiles/Multi_Linux_Data_Transmission_System.dir/flags.make
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/receiver/receive_init.cpp.o: ../receiver/receive_init.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Multi_Linux_Data_Transmission_System.dir/receiver/receive_init.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Multi_Linux_Data_Transmission_System.dir/receiver/receive_init.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Multi_Linux_Data_Transmission_System.dir/receiver/receive_init.cpp.o -c /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/receiver/receive_init.cpp
 
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/receiver/receive_init.cpp.i: cmake_force
@@ -105,7 +118,7 @@ CMakeFiles/Multi_Linux_Data_Transmission_System.dir/receiver/receive_init.cpp.s:
 
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/receiver/handle.cpp.o: CMakeFiles/Multi_Linux_Data_Transmission_System.dir/flags.make
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/receiver/handle.cpp.o: ../receiver/handle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Multi_Linux_Data_Transmission_System.dir/receiver/handle.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Multi_Linux_Data_Transmission_System.dir/receiver/handle.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Multi_Linux_Data_Transmission_System.dir/receiver/handle.cpp.o -c /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/receiver/handle.cpp
 
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/receiver/handle.cpp.i: cmake_force
@@ -118,7 +131,7 @@ CMakeFiles/Multi_Linux_Data_Transmission_System.dir/receiver/handle.cpp.s: cmake
 
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/receiver/forward.cpp.o: CMakeFiles/Multi_Linux_Data_Transmission_System.dir/flags.make
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/receiver/forward.cpp.o: ../receiver/forward.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Multi_Linux_Data_Transmission_System.dir/receiver/forward.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Multi_Linux_Data_Transmission_System.dir/receiver/forward.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Multi_Linux_Data_Transmission_System.dir/receiver/forward.cpp.o -c /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/receiver/forward.cpp
 
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/receiver/forward.cpp.i: cmake_force
@@ -131,7 +144,7 @@ CMakeFiles/Multi_Linux_Data_Transmission_System.dir/receiver/forward.cpp.s: cmak
 
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Test/Test.cpp.o: CMakeFiles/Multi_Linux_Data_Transmission_System.dir/flags.make
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Test/Test.cpp.o: ../Test/Test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Test/Test.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Test/Test.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Test/Test.cpp.o -c /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/Test/Test.cpp
 
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Test/Test.cpp.i: cmake_force
@@ -144,7 +157,7 @@ CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Test/Test.cpp.s: cmake_force
 
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/sender/sender_init.cpp.o: CMakeFiles/Multi_Linux_Data_Transmission_System.dir/flags.make
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/sender/sender_init.cpp.o: ../sender/sender_init.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Multi_Linux_Data_Transmission_System.dir/sender/sender_init.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Multi_Linux_Data_Transmission_System.dir/sender/sender_init.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Multi_Linux_Data_Transmission_System.dir/sender/sender_init.cpp.o -c /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/sender/sender_init.cpp
 
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/sender/sender_init.cpp.i: cmake_force
@@ -157,7 +170,7 @@ CMakeFiles/Multi_Linux_Data_Transmission_System.dir/sender/sender_init.cpp.s: cm
 
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/sender/sender.cpp.o: CMakeFiles/Multi_Linux_Data_Transmission_System.dir/flags.make
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/sender/sender.cpp.o: ../sender/sender.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Multi_Linux_Data_Transmission_System.dir/sender/sender.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Multi_Linux_Data_Transmission_System.dir/sender/sender.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Multi_Linux_Data_Transmission_System.dir/sender/sender.cpp.o -c /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/sender/sender.cpp
 
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/sender/sender.cpp.i: cmake_force
@@ -170,7 +183,7 @@ CMakeFiles/Multi_Linux_Data_Transmission_System.dir/sender/sender.cpp.s: cmake_f
 
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/init/init.cpp.o: CMakeFiles/Multi_Linux_Data_Transmission_System.dir/flags.make
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/init/init.cpp.o: ../init/init.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Multi_Linux_Data_Transmission_System.dir/init/init.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Multi_Linux_Data_Transmission_System.dir/init/init.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Multi_Linux_Data_Transmission_System.dir/init/init.cpp.o -c /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/init/init.cpp
 
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/init/init.cpp.i: cmake_force
@@ -183,7 +196,7 @@ CMakeFiles/Multi_Linux_Data_Transmission_System.dir/init/init.cpp.s: cmake_force
 
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/init/load_connection.cpp.o: CMakeFiles/Multi_Linux_Data_Transmission_System.dir/flags.make
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/init/load_connection.cpp.o: ../init/load_connection.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Multi_Linux_Data_Transmission_System.dir/init/load_connection.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Multi_Linux_Data_Transmission_System.dir/init/load_connection.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Multi_Linux_Data_Transmission_System.dir/init/load_connection.cpp.o -c /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/init/load_connection.cpp
 
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/init/load_connection.cpp.i: cmake_force
@@ -196,7 +209,7 @@ CMakeFiles/Multi_Linux_Data_Transmission_System.dir/init/load_connection.cpp.s: 
 
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/json_cpp/lib_json/json_reader.cpp.o: CMakeFiles/Multi_Linux_Data_Transmission_System.dir/flags.make
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/json_cpp/lib_json/json_reader.cpp.o: ../json_cpp/lib_json/json_reader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Multi_Linux_Data_Transmission_System.dir/json_cpp/lib_json/json_reader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Multi_Linux_Data_Transmission_System.dir/json_cpp/lib_json/json_reader.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Multi_Linux_Data_Transmission_System.dir/json_cpp/lib_json/json_reader.cpp.o -c /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/json_cpp/lib_json/json_reader.cpp
 
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/json_cpp/lib_json/json_reader.cpp.i: cmake_force
@@ -209,7 +222,7 @@ CMakeFiles/Multi_Linux_Data_Transmission_System.dir/json_cpp/lib_json/json_reade
 
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/json_cpp/lib_json/json_value.cpp.o: CMakeFiles/Multi_Linux_Data_Transmission_System.dir/flags.make
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/json_cpp/lib_json/json_value.cpp.o: ../json_cpp/lib_json/json_value.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Multi_Linux_Data_Transmission_System.dir/json_cpp/lib_json/json_value.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Multi_Linux_Data_Transmission_System.dir/json_cpp/lib_json/json_value.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Multi_Linux_Data_Transmission_System.dir/json_cpp/lib_json/json_value.cpp.o -c /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/json_cpp/lib_json/json_value.cpp
 
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/json_cpp/lib_json/json_value.cpp.i: cmake_force
@@ -222,7 +235,7 @@ CMakeFiles/Multi_Linux_Data_Transmission_System.dir/json_cpp/lib_json/json_value
 
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/json_cpp/lib_json/json_writer.cpp.o: CMakeFiles/Multi_Linux_Data_Transmission_System.dir/flags.make
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/json_cpp/lib_json/json_writer.cpp.o: ../json_cpp/lib_json/json_writer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Multi_Linux_Data_Transmission_System.dir/json_cpp/lib_json/json_writer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Multi_Linux_Data_Transmission_System.dir/json_cpp/lib_json/json_writer.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Multi_Linux_Data_Transmission_System.dir/json_cpp/lib_json/json_writer.cpp.o -c /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/json_cpp/lib_json/json_writer.cpp
 
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/json_cpp/lib_json/json_writer.cpp.i: cmake_force
@@ -235,7 +248,7 @@ CMakeFiles/Multi_Linux_Data_Transmission_System.dir/json_cpp/lib_json/json_write
 
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/init/config.cpp.o: CMakeFiles/Multi_Linux_Data_Transmission_System.dir/flags.make
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/init/config.cpp.o: ../init/config.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Multi_Linux_Data_Transmission_System.dir/init/config.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Multi_Linux_Data_Transmission_System.dir/init/config.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Multi_Linux_Data_Transmission_System.dir/init/config.cpp.o -c /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/init/config.cpp
 
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/init/config.cpp.i: cmake_force
@@ -248,7 +261,7 @@ CMakeFiles/Multi_Linux_Data_Transmission_System.dir/init/config.cpp.s: cmake_for
 
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/data_processing/load_file.cpp.o: CMakeFiles/Multi_Linux_Data_Transmission_System.dir/flags.make
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/data_processing/load_file.cpp.o: ../data_processing/load_file.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Multi_Linux_Data_Transmission_System.dir/data_processing/load_file.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Multi_Linux_Data_Transmission_System.dir/data_processing/load_file.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Multi_Linux_Data_Transmission_System.dir/data_processing/load_file.cpp.o -c /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/data_processing/load_file.cpp
 
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/data_processing/load_file.cpp.i: cmake_force
@@ -261,7 +274,7 @@ CMakeFiles/Multi_Linux_Data_Transmission_System.dir/data_processing/load_file.cp
 
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/data_processing/buffer_file.cpp.o: CMakeFiles/Multi_Linux_Data_Transmission_System.dir/flags.make
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/data_processing/buffer_file.cpp.o: ../data_processing/buffer_file.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Multi_Linux_Data_Transmission_System.dir/data_processing/buffer_file.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Multi_Linux_Data_Transmission_System.dir/data_processing/buffer_file.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Multi_Linux_Data_Transmission_System.dir/data_processing/buffer_file.cpp.o -c /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/data_processing/buffer_file.cpp
 
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/data_processing/buffer_file.cpp.i: cmake_force
@@ -274,7 +287,7 @@ CMakeFiles/Multi_Linux_Data_Transmission_System.dir/data_processing/buffer_file.
 
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/init/load_hosts.cpp.o: CMakeFiles/Multi_Linux_Data_Transmission_System.dir/flags.make
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/init/load_hosts.cpp.o: ../init/load_hosts.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Multi_Linux_Data_Transmission_System.dir/init/load_hosts.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Multi_Linux_Data_Transmission_System.dir/init/load_hosts.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Multi_Linux_Data_Transmission_System.dir/init/load_hosts.cpp.o -c /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/init/load_hosts.cpp
 
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/init/load_hosts.cpp.i: cmake_force
@@ -287,7 +300,7 @@ CMakeFiles/Multi_Linux_Data_Transmission_System.dir/init/load_hosts.cpp.s: cmake
 
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/crypto/sha256.cpp.o: CMakeFiles/Multi_Linux_Data_Transmission_System.dir/flags.make
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/crypto/sha256.cpp.o: ../crypto/sha256.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Multi_Linux_Data_Transmission_System.dir/crypto/sha256.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/Multi_Linux_Data_Transmission_System.dir/crypto/sha256.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Multi_Linux_Data_Transmission_System.dir/crypto/sha256.cpp.o -c /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/crypto/sha256.cpp
 
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/crypto/sha256.cpp.i: cmake_force
@@ -300,7 +313,7 @@ CMakeFiles/Multi_Linux_Data_Transmission_System.dir/crypto/sha256.cpp.s: cmake_f
 
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/init/get_host.cpp.o: CMakeFiles/Multi_Linux_Data_Transmission_System.dir/flags.make
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/init/get_host.cpp.o: ../init/get_host.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/Multi_Linux_Data_Transmission_System.dir/init/get_host.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/Multi_Linux_Data_Transmission_System.dir/init/get_host.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Multi_Linux_Data_Transmission_System.dir/init/get_host.cpp.o -c /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/init/get_host.cpp
 
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/init/get_host.cpp.i: cmake_force
@@ -313,7 +326,7 @@ CMakeFiles/Multi_Linux_Data_Transmission_System.dir/init/get_host.cpp.s: cmake_f
 
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/data_processing/write_file.cpp.o: CMakeFiles/Multi_Linux_Data_Transmission_System.dir/flags.make
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/data_processing/write_file.cpp.o: ../data_processing/write_file.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/Multi_Linux_Data_Transmission_System.dir/data_processing/write_file.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/Multi_Linux_Data_Transmission_System.dir/data_processing/write_file.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Multi_Linux_Data_Transmission_System.dir/data_processing/write_file.cpp.o -c /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/data_processing/write_file.cpp
 
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/data_processing/write_file.cpp.i: cmake_force
@@ -324,9 +337,61 @@ CMakeFiles/Multi_Linux_Data_Transmission_System.dir/data_processing/write_file.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Multi_Linux_Data_Transmission_System.dir/data_processing/write_file.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/data_processing/write_file.cpp -o CMakeFiles/Multi_Linux_Data_Transmission_System.dir/data_processing/write_file.cpp.s
 
+CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Qtui/widget.cpp.o: CMakeFiles/Multi_Linux_Data_Transmission_System.dir/flags.make
+CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Qtui/widget.cpp.o: ../Qtui/widget.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Qtui/widget.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Qtui/widget.cpp.o -c /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/Qtui/widget.cpp
+
+CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Qtui/widget.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Qtui/widget.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/Qtui/widget.cpp > CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Qtui/widget.cpp.i
+
+CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Qtui/widget.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Qtui/widget.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/Qtui/widget.cpp -o CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Qtui/widget.cpp.s
+
+CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Qtui/drawer.cpp.o: CMakeFiles/Multi_Linux_Data_Transmission_System.dir/flags.make
+CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Qtui/drawer.cpp.o: ../Qtui/drawer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Qtui/drawer.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Qtui/drawer.cpp.o -c /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/Qtui/drawer.cpp
+
+CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Qtui/drawer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Qtui/drawer.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/Qtui/drawer.cpp > CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Qtui/drawer.cpp.i
+
+CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Qtui/drawer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Qtui/drawer.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/Qtui/drawer.cpp -o CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Qtui/drawer.cpp.s
+
+CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Qtui/sendfile.cpp.o: CMakeFiles/Multi_Linux_Data_Transmission_System.dir/flags.make
+CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Qtui/sendfile.cpp.o: ../Qtui/sendfile.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Qtui/sendfile.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Qtui/sendfile.cpp.o -c /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/Qtui/sendfile.cpp
+
+CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Qtui/sendfile.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Qtui/sendfile.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/Qtui/sendfile.cpp > CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Qtui/sendfile.cpp.i
+
+CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Qtui/sendfile.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Qtui/sendfile.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/Qtui/sendfile.cpp -o CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Qtui/sendfile.cpp.s
+
+CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Qtui/loginform.cpp.o: CMakeFiles/Multi_Linux_Data_Transmission_System.dir/flags.make
+CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Qtui/loginform.cpp.o: ../Qtui/loginform.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Qtui/loginform.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Qtui/loginform.cpp.o -c /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/Qtui/loginform.cpp
+
+CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Qtui/loginform.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Qtui/loginform.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/Qtui/loginform.cpp > CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Qtui/loginform.cpp.i
+
+CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Qtui/loginform.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Qtui/loginform.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/Qtui/loginform.cpp -o CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Qtui/loginform.cpp.s
+
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/init/load_key_filename.cpp.o: CMakeFiles/Multi_Linux_Data_Transmission_System.dir/flags.make
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/init/load_key_filename.cpp.o: ../init/load_key_filename.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/Multi_Linux_Data_Transmission_System.dir/init/load_key_filename.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/Multi_Linux_Data_Transmission_System.dir/init/load_key_filename.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Multi_Linux_Data_Transmission_System.dir/init/load_key_filename.cpp.o -c /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/init/load_key_filename.cpp
 
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/init/load_key_filename.cpp.i: cmake_force
@@ -339,7 +404,7 @@ CMakeFiles/Multi_Linux_Data_Transmission_System.dir/init/load_key_filename.cpp.s
 
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/crypto/rsa.cpp.o: CMakeFiles/Multi_Linux_Data_Transmission_System.dir/flags.make
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/crypto/rsa.cpp.o: ../crypto/rsa.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/Multi_Linux_Data_Transmission_System.dir/crypto/rsa.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/Multi_Linux_Data_Transmission_System.dir/crypto/rsa.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Multi_Linux_Data_Transmission_System.dir/crypto/rsa.cpp.o -c /Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/crypto/rsa.cpp
 
 CMakeFiles/Multi_Linux_Data_Transmission_System.dir/crypto/rsa.cpp.i: cmake_force
@@ -352,6 +417,7 @@ CMakeFiles/Multi_Linux_Data_Transmission_System.dir/crypto/rsa.cpp.s: cmake_forc
 
 # Object files for target Multi_Linux_Data_Transmission_System
 Multi_Linux_Data_Transmission_System_OBJECTS = \
+"CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Multi_Linux_Data_Transmission_System_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/Multi_Linux_Data_Transmission_System.dir/main.cpp.o" \
 "CMakeFiles/Multi_Linux_Data_Transmission_System.dir/receiver/receive_init.cpp.o" \
 "CMakeFiles/Multi_Linux_Data_Transmission_System.dir/receiver/handle.cpp.o" \
@@ -371,12 +437,17 @@ Multi_Linux_Data_Transmission_System_OBJECTS = \
 "CMakeFiles/Multi_Linux_Data_Transmission_System.dir/crypto/sha256.cpp.o" \
 "CMakeFiles/Multi_Linux_Data_Transmission_System.dir/init/get_host.cpp.o" \
 "CMakeFiles/Multi_Linux_Data_Transmission_System.dir/data_processing/write_file.cpp.o" \
+"CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Qtui/widget.cpp.o" \
+"CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Qtui/drawer.cpp.o" \
+"CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Qtui/sendfile.cpp.o" \
+"CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Qtui/loginform.cpp.o" \
 "CMakeFiles/Multi_Linux_Data_Transmission_System.dir/init/load_key_filename.cpp.o" \
 "CMakeFiles/Multi_Linux_Data_Transmission_System.dir/crypto/rsa.cpp.o"
 
 # External object files for target Multi_Linux_Data_Transmission_System
 Multi_Linux_Data_Transmission_System_EXTERNAL_OBJECTS =
 
+Multi_Linux_Data_Transmission_System: CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Multi_Linux_Data_Transmission_System_autogen/mocs_compilation.cpp.o
 Multi_Linux_Data_Transmission_System: CMakeFiles/Multi_Linux_Data_Transmission_System.dir/main.cpp.o
 Multi_Linux_Data_Transmission_System: CMakeFiles/Multi_Linux_Data_Transmission_System.dir/receiver/receive_init.cpp.o
 Multi_Linux_Data_Transmission_System: CMakeFiles/Multi_Linux_Data_Transmission_System.dir/receiver/handle.cpp.o
@@ -396,11 +467,18 @@ Multi_Linux_Data_Transmission_System: CMakeFiles/Multi_Linux_Data_Transmission_S
 Multi_Linux_Data_Transmission_System: CMakeFiles/Multi_Linux_Data_Transmission_System.dir/crypto/sha256.cpp.o
 Multi_Linux_Data_Transmission_System: CMakeFiles/Multi_Linux_Data_Transmission_System.dir/init/get_host.cpp.o
 Multi_Linux_Data_Transmission_System: CMakeFiles/Multi_Linux_Data_Transmission_System.dir/data_processing/write_file.cpp.o
+Multi_Linux_Data_Transmission_System: CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Qtui/widget.cpp.o
+Multi_Linux_Data_Transmission_System: CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Qtui/drawer.cpp.o
+Multi_Linux_Data_Transmission_System: CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Qtui/sendfile.cpp.o
+Multi_Linux_Data_Transmission_System: CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Qtui/loginform.cpp.o
 Multi_Linux_Data_Transmission_System: CMakeFiles/Multi_Linux_Data_Transmission_System.dir/init/load_key_filename.cpp.o
 Multi_Linux_Data_Transmission_System: CMakeFiles/Multi_Linux_Data_Transmission_System.dir/crypto/rsa.cpp.o
 Multi_Linux_Data_Transmission_System: CMakeFiles/Multi_Linux_Data_Transmission_System.dir/build.make
+Multi_Linux_Data_Transmission_System: /usr/local/opt/qt/lib/QtWidgets.framework/QtWidgets
+Multi_Linux_Data_Transmission_System: /usr/local/opt/qt/lib/QtGui.framework/QtGui
+Multi_Linux_Data_Transmission_System: /usr/local/opt/qt/lib/QtCore.framework/QtCore
 Multi_Linux_Data_Transmission_System: CMakeFiles/Multi_Linux_Data_Transmission_System.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking CXX executable Multi_Linux_Data_Transmission_System"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Linking CXX executable Multi_Linux_Data_Transmission_System"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Multi_Linux_Data_Transmission_System.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

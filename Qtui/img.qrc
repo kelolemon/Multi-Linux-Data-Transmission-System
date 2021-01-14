@@ -1,0 +1,10 @@
+<!DOCTYPE RCC>
+<RCC>
+        <qresource prefix="/images">
+            	<file>images/FileTrans.png</file>
+	<file>images/user1.png</file>
+	<file>images/user2.png</file>
+	<file>images/user3.png</file>
+	<file>images/user4.png</file>
+        </qresource>
+    </RCC>

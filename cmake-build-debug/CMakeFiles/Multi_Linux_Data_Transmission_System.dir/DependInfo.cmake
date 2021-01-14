@@ -4,6 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/Multi_Linux_Data_Transmission_System_autogen/mocs_compilation.cpp" "/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Multi_Linux_Data_Transmission_System_autogen/mocs_compilation.cpp.o"
+  "/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/Qtui/drawer.cpp" "/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Qtui/drawer.cpp.o"
+  "/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/Qtui/loginform.cpp" "/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Qtui/loginform.cpp.o"
+  "/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/Qtui/sendfile.cpp" "/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Qtui/sendfile.cpp.o"
+  "/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/Qtui/widget.cpp" "/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Qtui/widget.cpp.o"
   "/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/Test/Test.cpp" "/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/CMakeFiles/Multi_Linux_Data_Transmission_System.dir/Test/Test.cpp.o"
   "/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/crypto/rsa.cpp" "/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/CMakeFiles/Multi_Linux_Data_Transmission_System.dir/crypto/rsa.cpp.o"
   "/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/crypto/sha256.cpp" "/Users/kelo/kelo/cpp/Multi-Linux-Data-Transmission-System/cmake-build-debug/CMakeFiles/Multi_Linux_Data_Transmission_System.dir/crypto/sha256.cpp.o"
@@ -28,9 +33,27 @@ set(CMAKE_DEPENDS_CHECK_CXX
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
+# Preprocessor definitions for this target.
+set(CMAKE_TARGET_DEFINITIONS_CXX
+  "QT_CORE_LIB"
+  "QT_GUI_LIB"
+  "QT_WIDGETS_LIB"
+  )
+
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "."
+  "../"
+  "Multi_Linux_Data_Transmission_System_autogen/include"
   "/usr/local/opt/openssl@1.1/include"
+  "/usr/local/opt/qt/lib/QtWidgets.framework"
+  "/usr/local/opt/qt/lib/QtWidgets.framework/Headers"
+  "/usr/local/opt/qt/lib/QtGui.framework"
+  "/usr/local/opt/qt/lib/QtGui.framework/Headers"
+  "/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/OpenGL.framework/Headers"
+  "/usr/local/opt/qt/lib/QtCore.framework"
+  "/usr/local/opt/qt/lib/QtCore.framework/Headers"
+  "/usr/local/opt/qt/./mkspecs/macx-clang"
   )
 
 # Targets to which this target links.
