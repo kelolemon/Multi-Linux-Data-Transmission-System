@@ -8,9 +8,13 @@ int main(int argc, char *argv[]) {
     Drawer drawer;
     drawer.resize(250,700);
     drawer.show();
-;
     return a.exec();
 
+    if (fork() != 0) {
+
+    } else {
+
+    }
 //    LoginForm *login = new LoginForm();
 //    login->show();
 //
