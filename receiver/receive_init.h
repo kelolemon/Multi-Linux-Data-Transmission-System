@@ -18,7 +18,7 @@
 extern int my_host;
 extern int tot_host;
 extern void handle(int client);
-extern std::vector<std::vector<int>> ACK_matrix;
-extern void load_ACK_matrix(int rev_package_number);
+// extern std::vector<std::vector<int>> ACK_matrix;
+// extern void load_ACK_matrix(int rev_package_number);
 #endif //MULTI_LINUX_DATA_TRANSMISSION_SYSTEM_RECEIVE_INIT_H
 

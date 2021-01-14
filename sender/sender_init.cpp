@@ -30,9 +30,9 @@ void sender_init(char *addr, char *port, int to_host, bool is_broadcast) {
             break;
         }
         printf("[sender] server[%s:%s] is connected!\n", addr, port);
-        int package_number = load_file_data.size();
-       //send the package number first
-        write(sender_socket, &package_number, sizeof package_number);
+        // int package_number = load_file_data.size();
+        // send the package number first
+        // write(sender_socket, &package_number, sizeof package_number);
         sender(sender_socket, to_host,  is_broadcast);
     }
     close(sender_socket);

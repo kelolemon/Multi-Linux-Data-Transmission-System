@@ -34,7 +34,7 @@ void sender(int sender_socket, int to_host, bool is_broadcast) {
         strcpy(unit_message.message, iter.second);
         auto key_filename = get_host_key_filename(to_host);
         // encrypt
-        strcpy(unit_message.message, (char *)RsaPubEncrypt(unit_message.message, key_filename).c_str());
+        // strcpy(unit_message.message, (char *)RsaPubEncrypt(unit_message.message, key_filename).c_str());
         unit_message.header.PackageId = iter.first;
         unit_message.header.IsBroadCast = is_broadcast;
         unit_message.header.IsACK = false; // temporary
@@ -42,7 +42,7 @@ void sender(int sender_socket, int to_host, bool is_broadcast) {
         unit_message.header.LastLeapId = my_host;
         unit_message.header.SourceId = my_host;
         unit_message.header.TotalPackageNumber = load_file_data.size();
-        unit_message.header.checkSum = encrypt_sha256(unit_message.message);
+        unit_message.header.checkSum = 0;
         unit_message.header.PackageSize = sizeof unit_message;
         // write size
         int size = sizeof unit_message;

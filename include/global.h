@@ -19,7 +19,7 @@ struct PackageHeader {
     int TotalPackageNumber;
     int PackageId;
     int PackageSize;
-    std::string checkSum;
+    int checkSum;
     int SourceId;
     int DestinationId;
     int LastLeapId;

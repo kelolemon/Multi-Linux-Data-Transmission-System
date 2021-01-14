@@ -6,14 +6,19 @@
 #include "write_file.h"
 
 bool write_file(char *filename) {
-    std::fstream file(filename,std::ios::out | std::ios::binary | std::ios::app);
+    std::fstream file(filename,std::ios::out | std::ios::binary);
     if (!file) {
         puts("open file error!");
         return false;
     }
+    std::string write_str;
     for (auto iter : buffer_file_data) {
-        auto write_message = iter.second;
-        file.write(write_message, sizeof write_message);
+        puts("writing file");
+        puts(iter.second);
+        std::string write_message = iter.second;
+        write_str += write_message;
     }
+    printf("%s \n%lu", (char *)write_str.c_str(), write_str.size());
+    file.write((char *)write_str.c_str(), write_str.size());
     return true;
 }

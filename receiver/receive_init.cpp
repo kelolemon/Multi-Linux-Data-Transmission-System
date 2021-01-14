@@ -51,9 +51,9 @@ void receive_init(char *addr, char *port) {
         inet_ntop(AF_INET, (void *) &sender_addr.sin_addr, ipv4_sender_addr, 16);
         printf("[receiver] sender[%s:%d] is accepted!\n", ipv4_sender_addr, ntohs(sender_addr.sin_port));
         //receive the package number and init the ACK
-        int rev_package_number;
-        read(sender_socket, &rev_package_number, sizeof rev_package_number);
-        load_ACK_matrix(rev_package_number);
+        // int rev_package_number;
+        // read(sender_socket, &rev_package_number, sizeof rev_package_number);
+        // load_ACK_matrix(rev_package_number);
         handle(sender_socket);
         close(sender_socket);
     }
@@ -62,6 +62,7 @@ void receive_init(char *addr, char *port) {
     printf("[receiver] server is exiting\n");
 }
 
+/*
 void load_ACK_matrix(int rev_package_number){ //初始化为0
     for(int i = 0;i < rev_package_number; i++){
         std::vector<int> tmp;//一维vector  tmp
@@ -73,4 +74,4 @@ void load_ACK_matrix(int rev_package_number){ //初始化为0
          }
         ACK_matrix.push_back(tmp);//把一维 vector tmp 放进 二维vector vt
     }
-}
+}*/

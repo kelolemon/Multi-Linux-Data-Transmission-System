@@ -36,41 +36,54 @@ void handle(int sender_socket) {
 
     for(;;){
         //read size
+
+        puts("begin to read size");
+
         int l_size = 0;
         read(sender_socket, &l_size, 4);
         int size = ntohl(l_size);
         if (size == 0) {
             break;
         }
-        //read
+        puts("begin to read message");
         Message unit_message{};
         auto res = read_message(&unit_message, size, sender_socket);
         if(res){
             printf("receive successfully\n");
+            puts(unit_message.message);
+            puts("puts successfully");
             // decrypt
-            strcpy(unit_message.message, (char *)RsaPriDecrypt(unit_message.message, PRIVATE_KEY_FILENAME).c_str());
+            // strcpy(unit_message.message, (char *)RsaPriDecrypt(unit_message.message, PRIVATE_KEY_FILENAME).c_str());
+            /*
             //send_ACK(ACK)
             if(!unit_message.header.IsACK){
                 send_ACK(unit_message);
             }
             else{
                 receive_ACK(unit_message);
-            }
+            }*/
         }else{
             puts("error!");
             break;
         }
 
         //store in buffer
+        puts(" prepare to sha 256 encrypt");
+        /*
         if (unit_message.header.checkSum != encrypt_sha256(unit_message.message)) {
+            puts(" sha 256 is not correct");
             //TODO need to drop this package and notify sender to resend this package
-        }
+        }*/
+        puts("prepare to find file !");
         if (buffer_file_data.find(unit_message.header.PackageId) == buffer_file_data.end()) {
+            puts(" loading the package");
             strcpy(buffer_file_data[unit_message.header.PackageId], unit_message.message);
             if(buffer_file_data.size() > unit_message.header.TotalPackageNumber / 2){
-                forward(unit_message);
+                // forward(unit_message);
             }
         }
+        puts("after load int file");
+        /*
         if (buffer_file_data.size() == unit_message.header.TotalPackageNumber){
             printf("The message is all received");
             //TODO 重传，检查ACK矩阵，如果有没收到的就发送，可以删除，感觉冗余了
@@ -94,15 +107,16 @@ void handle(int sender_socket) {
                 }
 
             }
-          
         }
+         */
     }
     //write to the file
     char filename[255];
-    strcpy(filename, "../data/receive_test_data.txt");
+    strcpy(filename, "../data/receive_test_data_reborn.txt");
     write_file(filename);
 }
 
+/*
 void send_ACK(const Message& unit_message){
     Message ACK_message{};
     strcpy(ACK_message.message, "this is a ACK");
@@ -123,3 +137,4 @@ void receive_ACK(const Message& unit_message){
     ACK_matrix[unit_message.header.PackageId][unit_message.header.DestinationId] = 1;
     printf("Receive ACK%d from %d", unit_message.header.PackageId, unit_message.header.DestinationId);
 }
+*/

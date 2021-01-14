@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.17)
 project(Multi_Linux_Data_Transmission_System)
 
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 17)
 
 include_directories(/usr/local/opt/openssl@1.1/include)
 link_directories(/usr/local/opt/openssl@1.1/lib)
